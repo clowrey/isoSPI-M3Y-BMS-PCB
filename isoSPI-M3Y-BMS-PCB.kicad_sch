@@ -21999,7 +21999,7 @@
 	)
 	(text "GPIO4 - GPIO13 on NC header"
 		(exclude_from_sim no)
-		(at 415.29 160.274 0)
+		(at 436.626 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25487,7 +25487,7 @@
 	)
 	(wire
 		(pts
-			(xy 398.78 187.96) (xy 414.02 187.96)
+			(xy 398.78 187.96) (xy 419.1 187.96)
 		)
 		(stroke
 			(width 0)
@@ -26447,7 +26447,7 @@
 	)
 	(wire
 		(pts
-			(xy 398.78 180.34) (xy 414.02 180.34)
+			(xy 398.78 180.34) (xy 419.1 180.34)
 		)
 		(stroke
 			(width 0)
@@ -28627,7 +28627,7 @@
 	)
 	(wire
 		(pts
-			(xy 398.78 175.26) (xy 414.02 175.26)
+			(xy 398.78 175.26) (xy 419.1 175.26)
 		)
 		(stroke
 			(width 0)
@@ -28817,7 +28817,7 @@
 	)
 	(wire
 		(pts
-			(xy 398.78 182.88) (xy 414.02 182.88)
+			(xy 398.78 182.88) (xy 419.1 182.88)
 		)
 		(stroke
 			(width 0)
@@ -29877,7 +29877,7 @@
 	)
 	(wire
 		(pts
-			(xy 398.78 172.72) (xy 414.02 172.72)
+			(xy 398.78 172.72) (xy 419.1 172.72)
 		)
 		(stroke
 			(width 0)
@@ -30367,7 +30367,7 @@
 	)
 	(wire
 		(pts
-			(xy 398.78 170.18) (xy 414.02 170.18)
+			(xy 398.78 170.18) (xy 419.1 170.18)
 		)
 		(stroke
 			(width 0)
@@ -31357,7 +31357,7 @@
 	)
 	(wire
 		(pts
-			(xy 398.78 165.1) (xy 414.02 165.1)
+			(xy 398.78 165.1) (xy 419.1 165.1)
 		)
 		(stroke
 			(width 0)
@@ -31827,7 +31827,7 @@
 	)
 	(wire
 		(pts
-			(xy 398.78 185.42) (xy 414.02 185.42)
+			(xy 398.78 185.42) (xy 419.1 185.42)
 		)
 		(stroke
 			(width 0)
@@ -35117,7 +35117,7 @@
 	)
 	(wire
 		(pts
-			(xy 398.78 167.64) (xy 414.02 167.64)
+			(xy 398.78 167.64) (xy 419.1 167.64)
 		)
 		(stroke
 			(width 0)
@@ -38907,7 +38907,7 @@
 	)
 	(wire
 		(pts
-			(xy 398.78 177.8) (xy 414.02 177.8)
+			(xy 398.78 177.8) (xy 419.1 177.8)
 		)
 		(stroke
 			(width 0)
@@ -42677,7 +42677,7 @@
 	)
 	(global_label "CAN Rx"
 		(shape input)
-		(at 457.2 175.26 0)
+		(at 419.1 175.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -42687,7 +42687,7 @@
 		)
 		(uuid "04779265-21ad-4cc3-95dc-ebf43041ee24")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 467.14 175.26 0)
+			(at 429.04 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43029,7 +43029,7 @@
 	)
 	(global_label "Extra Output 2"
 		(shape output)
-		(at 473.71 154.94 180)
+		(at 435.61 162.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -43039,7 +43039,7 @@
 		)
 		(uuid "1f69ac73-a7c9-4f17-8cdf-44eb77935ca5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 456.5132 154.94 0)
+			(at 418.4132 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43139,7 +43139,7 @@
 	)
 	(global_label "FC-Pos"
 		(shape input)
-		(at 457.2 167.64 0)
+		(at 419.1 172.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -43149,7 +43149,7 @@
 		)
 		(uuid "2293ef2d-e211-41d4-b2e1-9e4da9f09c46")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 467.5633 167.64 0)
+			(at 429.4633 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43227,7 +43227,7 @@
 	)
 	(global_label "I2C SCL Shunt"
 		(shape bidirectional)
-		(at 457.2 177.8 0)
+		(at 419.1 185.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -43237,7 +43237,7 @@
 		)
 		(uuid "28aaa6e1-4fe6-4dbf-9e88-c89d8d9105ae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 475.2058 177.8 0)
+			(at 437.1058 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43601,7 +43601,7 @@
 	)
 	(global_label "Pos"
 		(shape input)
-		(at 457.2 165.1 0)
+		(at 419.1 170.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -43611,7 +43611,7 @@
 		)
 		(uuid "3a57883a-af80-4e2e-8049-eb9ec11ac4ce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 463.6323 165.1 0)
+			(at 425.5323 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43711,7 +43711,7 @@
 	)
 	(global_label "Neg"
 		(shape input)
-		(at 457.2 162.56 0)
+		(at 419.1 167.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -43721,7 +43721,7 @@
 		)
 		(uuid "422ad3e7-b56a-4aa2-9647-25cac9483e9d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 463.7533 162.56 0)
+			(at 425.6533 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43843,7 +43843,7 @@
 	)
 	(global_label "Extra Output 1"
 		(shape output)
-		(at 473.71 152.4 180)
+		(at 435.61 160.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -43853,7 +43853,7 @@
 		)
 		(uuid "4911428d-d7c2-41ed-8f10-5a7e3d93b864")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 456.5132 152.4 0)
+			(at 418.4132 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44525,7 +44525,7 @@
 	)
 	(global_label "CAN Tx"
 		(shape output)
-		(at 457.2 172.72 0)
+		(at 419.1 177.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -44535,7 +44535,7 @@
 		)
 		(uuid "8de63c98-7283-4ffc-9bf8-4bf0a33e1e04")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 466.8376 172.72 0)
+			(at 428.7376 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44591,7 +44591,7 @@
 	)
 	(global_label "I2C SCL Vsense"
 		(shape bidirectional)
-		(at 457.2 182.88 0)
+		(at 419.1 180.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -44601,7 +44601,7 @@
 		)
 		(uuid "986a49ba-8345-4131-a525-d93db653e242")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 476.2946 182.88 0)
+			(at 438.1946 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45031,7 +45031,7 @@
 	)
 	(global_label "I2C SDA Shunt"
 		(shape bidirectional)
-		(at 457.2 180.34 0)
+		(at 419.1 187.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -45041,7 +45041,7 @@
 		)
 		(uuid "bfc92cdc-2701-4b0b-8155-8700be66cc14")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 475.2663 180.34 0)
+			(at 437.1663 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45339,7 +45339,7 @@
 	)
 	(global_label "FC-Neg"
 		(shape input)
-		(at 457.2 160.02 0)
+		(at 419.1 165.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -45349,7 +45349,7 @@
 		)
 		(uuid "d7b5965c-3866-4328-b0b2-44aa508d82d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 467.6843 160.02 0)
+			(at 429.5843 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45691,7 +45691,7 @@
 	)
 	(global_label "I2C SDA Vsense"
 		(shape bidirectional)
-		(at 457.2 185.42 0)
+		(at 419.1 182.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -45701,7 +45701,7 @@
 		)
 		(uuid "f57eb3b0-807c-4efc-838c-da255be6944e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 476.3551 185.42 0)
+			(at 438.2551 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
