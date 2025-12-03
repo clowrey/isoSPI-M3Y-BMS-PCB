@@ -22882,6 +22882,12 @@
 		(uuid "1339ade1-b9df-4880-9622-684ea16bd641")
 	)
 	(junction
+		(at 128.27 520.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15469dd1-5328-4f0d-8b85-fc1183299ec3")
+	)
+	(junction
 		(at 749.3 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -24082,6 +24088,12 @@
 		(uuid "9151d703-915c-43a8-b2c3-9d44b1746aac")
 	)
 	(junction
+		(at 128.27 530.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "919c9320-3332-4222-abc9-2adc9f20070f")
+	)
+	(junction
 		(at 699.77 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -25265,7 +25277,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 520.7) (xy 182.88 520.7)
+			(xy 114.3 520.7) (xy 128.27 520.7)
 		)
 		(stroke
 			(width 0)
@@ -25572,6 +25584,16 @@
 			(type default)
 		)
 		(uuid "085d0e00-d709-44c3-9b56-a54f7a8f8982")
+	)
+	(wire
+		(pts
+			(xy 128.27 520.7) (xy 182.88 520.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08c2b284-a3b3-4200-8c38-15d9a1b1253a")
 	)
 	(wire
 		(pts
@@ -26172,6 +26194,16 @@
 			(type default)
 		)
 		(uuid "126ffb67-64d0-492a-873c-047d766d05db")
+	)
+	(wire
+		(pts
+			(xy 128.27 530.86) (xy 134.62 530.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12a12133-e5fa-41cb-b930-cde54387b7a1")
 	)
 	(wire
 		(pts
@@ -32075,6 +32107,16 @@
 	)
 	(wire
 		(pts
+			(xy 483.87 209.55) (xy 487.68 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aae233a-d247-40e4-94c2-801d6105b9ec")
+	)
+	(wire
+		(pts
 			(xy 353.06 382.27) (xy 370.84 382.27)
 		)
 		(stroke
@@ -33282,6 +33324,16 @@
 			(type dash)
 		)
 		(uuid "92822b86-e19b-4b2d-a840-e1ec7ba021dc")
+	)
+	(wire
+		(pts
+			(xy 477.52 222.25) (xy 481.33 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92eb4653-3067-4c18-985b-d71c7e730816")
 	)
 	(wire
 		(pts
@@ -38135,7 +38187,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 530.86) (xy 134.62 530.86)
+			(xy 114.3 530.86) (xy 128.27 530.86)
 		)
 		(stroke
 			(width 0)
@@ -42909,6 +42961,28 @@
 			)
 		)
 	)
+	(global_label "IsoSPI RX Debug"
+		(shape input)
+		(at 477.52 222.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "13ea044c-ac49-4440-ae5b-f70a70b1966e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 458.4483 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "V_{Contactor}"
 		(shape input)
 		(at 82.55 196.85 0)
@@ -43081,6 +43155,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Snooper Debug"
+		(shape input)
+		(at 483.87 209.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "25a58daa-3f1a-4d70-8306-107c7f51531e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 466.4313 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -46759,7 +46855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "bms:TestPoint_2Pads_Pitch2.54mm_Drill0.9mm"
+		(property "Footprint" "BMS_Library:TestPoint_2Pads_Pitch2.54mm_Pad1.5_Drill1.0mm"
 			(at 41.91 528.32 0)
 			(effects
 				(font
@@ -54305,6 +54401,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 481.33 232.41 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34547424-925a-48a0-8955-78078d55d365")
+		(property "Reference" "#PWR0126"
+			(at 481.33 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 484.886 234.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 481.33 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 481.33 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 481.33 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f4eee29-9bcb-45e0-ab1a-203d9d1452a5")
+		)
+		(instances
+			(project "isoSPI-M3Y-BMS-PCB"
+				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
+					(reference "#PWR0126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 119.38 525.78 0)
 		(mirror y)
 		(unit 1)
@@ -54630,7 +54792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "bms:TestPoint_2Pads_Pitch2.54mm_Drill0.9mm"
+		(property "Footprint" "BMS_Library:TestPoint_2Pads_Pitch2.54mm_Pad1.5_Drill1.0mm"
 			(at 181.61 48.26 0)
 			(effects
 				(font
@@ -61024,7 +61186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "bms:TestPoint_2Pads_Pitch2.54mm_Drill0.9mm"
+		(property "Footprint" "BMS_Library:TestPoint_2Pads_Pitch2.54mm_Pad1.5_Drill1.0mm"
 			(at 144.78 337.82 0)
 			(effects
 				(font
@@ -67556,7 +67718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "bms:TestPoint_2Pads_Pitch2.54mm_Drill0.9mm"
+		(property "Footprint" "BMS_Library:TestPoint_2Pads_Pitch2.54mm_Pad1.5_Drill1.0mm"
 			(at 29.21 344.17 0)
 			(effects
 				(font
@@ -70349,7 +70511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "bms:TestPoint_2Pads_Pitch2.54mm_Drill0.9mm"
+		(property "Footprint" "BMS_Library:TestPoint_2Pads_Pitch2.54mm_Pad1.5_Drill1.0mm"
 			(at 99.06 99.06 0)
 			(effects
 				(font
@@ -71650,7 +71812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "bms:TestPoint_2Pads_Pitch2.54mm_Drill0.9mm"
+		(property "Footprint" "BMS_Library:TestPoint_2Pads_Pitch2.54mm_Pad1.5_Drill1.0mm"
 			(at 739.14 369.57 0)
 			(effects
 				(font
@@ -73072,7 +73234,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_2Pole")
-		(at 481.33 215.9 90)
+		(at 487.68 214.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -73080,7 +73242,7 @@
 		(dnp no)
 		(uuid "98e47a36-b239-43e7-b065-c3dbe9a305ec")
 		(property "Reference" "TP15"
-			(at 484.886 216.154 90)
+			(at 491.236 214.884 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73088,7 +73250,7 @@
 			)
 		)
 		(property "Value" "TestPoint_2Pole"
-			(at 480.822 232.664 90)
+			(at 487.172 231.394 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73096,8 +73258,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "bms:TestPoint_2Pads_Pitch2.54mm_Drill0.9mm"
-			(at 481.33 215.9 0)
+		(property "Footprint" "BMS_Library:TestPoint_2Pads_Pitch2.54mm_Pad1.5_Drill1.0mm"
+			(at 487.68 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73106,7 +73268,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 481.33 215.9 0)
+			(at 487.68 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73115,7 +73277,7 @@
 			)
 		)
 		(property "Description" "2-polar test point"
-			(at 481.33 215.9 0)
+			(at 487.68 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76277,7 +76439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "bms:TestPoint_2Pads_Pitch2.54mm_Drill0.9mm"
+		(property "Footprint" "BMS_Library:TestPoint_2Pads_Pitch2.54mm_Pad1.5_Drill1.0mm"
 			(at 812.8 365.76 0)
 			(effects
 				(font
@@ -78532,7 +78694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "bms:TestPoint_2Pads_Pitch2.54mm_Drill0.9mm"
+		(property "Footprint" "BMS_Library:TestPoint_2Pads_Pitch2.54mm_Pad1.5_Drill1.0mm"
 			(at 702.31 123.19 0)
 			(effects
 				(font
@@ -82623,7 +82785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "bms:TestPoint_2Pads_Pitch2.54mm_Drill0.9mm"
+		(property "Footprint" "BMS_Library:TestPoint_2Pads_Pitch2.54mm_Pad1.5_Drill1.0mm"
 			(at 737.87 312.42 0)
 			(effects
 				(font
@@ -83428,6 +83590,74 @@
 			(project "bms"
 				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
 					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_2Pole")
+		(at 481.33 227.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0c5e5c1-484f-4c44-95b1-4f50073c6aeb")
+		(property "Reference" "TP16"
+			(at 484.886 227.584 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint_2Pole"
+			(at 480.822 244.094 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BMS_Library:TestPoint_2Pads_Pitch2.54mm_Pad1.5_Drill1.0mm"
+			(at 481.33 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 481.33 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2-polar test point"
+			(at 481.33 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9ca4a8b-1359-4c29-881a-20882a68c06d")
+		)
+		(pin "2"
+			(uuid "07b14474-d326-42da-9033-75b33e0cf945")
+		)
+		(instances
+			(project "isoSPI-M3Y-BMS-PCB"
+				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -85015,6 +85245,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_2Pole")
+		(at 128.27 525.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d892c49a-6b44-4603-8b1a-96c8b7ae3cba")
+		(property "Reference" "TP19"
+			(at 131.826 526.034 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint_2Pole"
+			(at 127.762 542.544 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BMS_Library:TestPoint_2Pads_Pitch2.54mm_Pad1.5_Drill1.0mm"
+			(at 128.27 525.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 525.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2-polar test point"
+			(at 128.27 525.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ef85953-de0c-4bd3-b93d-df87d7f954d6")
+		)
+		(pin "2"
+			(uuid "35f8df26-b4c0-4962-832d-4fc5ee89571f")
+		)
+		(instances
+			(project "isoSPI-M3Y-BMS-PCB"
+				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
+					(reference "TP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 839.47 374.65 180)
 		(unit 1)
@@ -86508,7 +86806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "bms:TestPoint_2Pads_Pitch2.54mm_Drill0.9mm"
+		(property "Footprint" "BMS_Library:TestPoint_2Pads_Pitch2.54mm_Pad1.5_Drill1.0mm"
 			(at 314.96 387.35 0)
 			(effects
 				(font
@@ -87601,6 +87899,72 @@
 			(project "bms"
 				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
 					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 487.68 219.71 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eae1b53f-7e39-4f0b-a88d-745a3e4be312")
+		(property "Reference" "#PWR037"
+			(at 487.68 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 491.236 221.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 487.68 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 487.68 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 487.68 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d45b35b-cc42-45f6-ad1e-837527745561")
+		)
+		(instances
+			(project "isoSPI-M3Y-BMS-PCB"
+				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -91261,7 +91625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "bms:TestPoint_2Pads_Pitch2.54mm_Drill0.9mm"
+		(property "Footprint" "BMS_Library:TestPoint_2Pads_Pitch2.54mm_Pad1.5_Drill1.0mm"
 			(at 314.96 332.74 0)
 			(effects
 				(font
