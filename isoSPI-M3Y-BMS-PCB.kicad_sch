@@ -21468,8 +21468,8 @@
 		(uuid 70cf7f37-b1d7-4511-a807-cc6edf400dd0)
 	)
 	(rectangle
-		(start 1132.205 121.92)
-		(end 1249.68 213.995)
+		(start 387.985 466.09)
+		(end 505.46 558.165)
 		(stroke
 			(width 0)
 			(type default)
@@ -21493,8 +21493,8 @@
 		(uuid 78d22075-a345-4b9b-bcce-02b1ad0adafe)
 	)
 	(rectangle
-		(start 1132.205 221.615)
-		(end 1249.68 340.36)
+		(start 668.655 460.375)
+		(end 786.13 579.12)
 		(stroke
 			(width 0)
 			(type default)
@@ -21814,7 +21814,7 @@
 	)
 	(text "PTC 440V 56Ω"
 		(exclude_from_sim no)
-		(at 1224.534 225.552 0)
+		(at 760.984 464.312 0)
 		(effects
 			(font
 				(size 2 2)
@@ -22028,7 +22028,7 @@
 	)
 	(text "Cells Positive \nAlways Live"
 		(exclude_from_sim no)
-		(at 1158.24 141.732 0)
+		(at 414.02 485.902 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22048,7 +22048,7 @@
 	)
 	(text "Positives"
 		(exclude_from_sim no)
-		(at 1102.995 149.225 0)
+		(at 358.775 493.395 0)
 		(effects
 			(font
 				(size 2 2)
@@ -22078,7 +22078,7 @@
 	)
 	(text "Inverter connected to FC port"
 		(exclude_from_sim no)
-		(at 1270.508 294.132 0)
+		(at 806.958 532.892 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22159,7 +22159,7 @@
 	)
 	(text "requires connection to always live terminal"
 		(exclude_from_sim no)
-		(at 1149.604 134.62 0)
+		(at 405.384 478.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22170,7 +22170,7 @@
 	)
 	(text "Positives"
 		(exclude_from_sim no)
-		(at 1104.138 258.953 0)
+		(at 640.588 497.713 0)
 		(effects
 			(font
 				(size 2 2)
@@ -22200,7 +22200,7 @@
 	)
 	(text "Inside Penthouse"
 		(exclude_from_sim no)
-		(at 1234.694 125.476 0)
+		(at 447.802 463.55 0)
 		(effects
 			(font
 				(size 2 2)
@@ -22290,7 +22290,7 @@
 	)
 	(text "Fuse inside penthouse\nContactor left open (no connection on LV side)\n"
 		(exclude_from_sim no)
-		(at 1224.026 296.672 0)
+		(at 760.476 535.432 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22352,7 +22352,7 @@
 	)
 	(text "Inverter connected to drive unit port"
 		(exclude_from_sim no)
-		(at 1269.492 175.514 0)
+		(at 525.272 519.684 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22372,7 +22372,7 @@
 	)
 	(text "Cells Positive \nAlways Live"
 		(exclude_from_sim no)
-		(at 1159.256 257.81 0)
+		(at 695.706 496.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22392,7 +22392,7 @@
 	)
 	(text "Option #1"
 		(exclude_from_sim no)
-		(at 1192.784 127 0)
+		(at 448.564 471.17 0)
 		(effects
 			(font
 				(size 4 4)
@@ -22402,7 +22402,7 @@
 	)
 	(text "Option #2"
 		(exclude_from_sim no)
-		(at 1175.258 226.314 0)
+		(at 722.376 466.344 0)
 		(effects
 			(font
 				(size 4 4)
@@ -22412,7 +22412,7 @@
 	)
 	(text "Negatives"
 		(exclude_from_sim no)
-		(at 1104.138 278.638 0)
+		(at 640.588 517.398 0)
 		(effects
 			(font
 				(size 2 2)
@@ -22433,7 +22433,7 @@
 	)
 	(text "Negatives"
 		(exclude_from_sim no)
-		(at 1102.995 168.91 0)
+		(at 358.775 513.08 0)
 		(effects
 			(font
 				(size 2 2)
@@ -22450,6 +22450,16 @@
 			)
 		)
 		(uuid "edb3acf9-8b8f-4f0a-8091-905929a565a1")
+	)
+	(text "Inside Penthouse"
+		(exclude_from_sim no)
+		(at 726.186 458.216 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "f181067b-fd5e-4fb4-9a39-ea55ee08b908")
 	)
 	(text "Galvanically Isolated Area"
 		(exclude_from_sim yes)
@@ -22473,7 +22483,7 @@
 	)
 	(text_box "- 2 contactors always on\n- existing HV output connection"
 		(exclude_from_sim no)
-		(at 1041.4 151.892 0)
+		(at 297.18 496.062 0)
 		(size 87.122 12.065)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -22493,7 +22503,7 @@
 	)
 	(text_box "- need to energize one more contactor\n- not as standard Pre-charge wiring\n"
 		(exclude_from_sim no)
-		(at 1042.67 281.305 0)
+		(at 579.12 520.065 0)
 		(size 86.995 12.065)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -22513,7 +22523,7 @@
 	)
 	(text_box "- live HV connection - danger\n"
 		(exclude_from_sim no)
-		(at 1041.4 171.577 0)
+		(at 297.18 515.747 0)
 		(size 87.122 12.065)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -22533,7 +22543,7 @@
 	)
 	(text_box "- No New Live HV Wiring\n- FC HV connection easier to wire? (packs with bolts)\n- low amp fuse inside penthouse"
 		(exclude_from_sim no)
-		(at 1042.67 261.62 0)
+		(at 579.12 500.38 0)
 		(size 86.995 12.065)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -22606,7 +22616,7 @@
 		(uuid "0461afda-11ec-4290-a114-1f463e1f2bf6")
 	)
 	(junction
-		(at 1211.58 266.7)
+		(at 748.03 505.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0605cdc5-b53d-4300-a51b-9864b9c42ec8")
@@ -22726,7 +22736,7 @@
 		(uuid "0fb7d2ee-b71a-41cf-ba5a-fb248b3ea787")
 	)
 	(junction
-		(at 1238.25 246.38)
+		(at 774.7 485.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0fb855c8-eb1b-4803-9a8f-15697724c148")
@@ -22852,22 +22862,10 @@
 		(uuid "1d4fa8a5-33fc-430d-b7ef-a29fd7ac4a16")
 	)
 	(junction
-		(at 1407.16 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1d9df329-f809-4d2f-b749-c28db89aaa89")
-	)
-	(junction
 		(at 267.97 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1de93c08-76ac-46ae-b2b3-ae02dd0eccc3")
-	)
-	(junction
-		(at 1435.1 242.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1f0455fd-45ff-47f8-b8bd-97beb89f7a54")
 	)
 	(junction
 		(at 124.46 332.74)
@@ -22888,7 +22886,7 @@
 		(uuid "20abcfbb-3c2b-4a6a-b463-22a8da0e26cf")
 	)
 	(junction
-		(at 1225.55 236.22)
+		(at 762 474.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2156ef99-6292-4cf7-a9e3-07945bb0fa43")
@@ -22934,18 +22932,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "23b9098d-dd0c-4157-a3fe-f8029fbe2e2a")
-	)
-	(junction
-		(at 1407.16 242.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "247cc05c-8ad1-4cfc-b4d1-66ab6f5538ab")
-	)
-	(junction
-		(at 1409.7 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24a8dfb8-dd4f-4f29-ab25-33f09b74ed71")
 	)
 	(junction
 		(at 86.36 91.44)
@@ -23236,7 +23222,7 @@
 		(uuid "3f52ac69-20d9-4633-8e8a-35ae636284d9")
 	)
 	(junction
-		(at 1206.5 316.23)
+		(at 742.95 554.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "403809ca-eccc-473b-bf60-5f12d03af254")
@@ -23302,7 +23288,7 @@
 		(uuid "46ca3b26-1fd6-461d-811e-89c5b6d62e87")
 	)
 	(junction
-		(at 1211.58 246.38)
+		(at 748.03 485.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "480bfdda-9fc5-49e1-bba3-5e91c710eee2")
@@ -23524,12 +23510,6 @@
 		(uuid "607b9946-5245-44e2-9f52-6301daaab565")
 	)
 	(junction
-		(at 1435.1 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "60db6270-c7b9-403a-b13d-0e92e92b1eca")
-	)
-	(junction
 		(at 124.46 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -23566,7 +23546,7 @@
 		(uuid "656eeeb3-ed4f-4192-a493-b8b6167c2bbf")
 	)
 	(junction
-		(at 1238.25 318.77)
+		(at 774.7 557.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "659099c8-30ec-4727-a135-ea6c763a0026")
@@ -23668,7 +23648,7 @@
 		(uuid "713afb0e-f0cb-46e3-a57f-996e62cd6f6e")
 	)
 	(junction
-		(at 1225.55 256.54)
+		(at 762 495.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7141929f-3612-41f3-a92a-dbebc43bc2f4")
@@ -23752,7 +23732,7 @@
 		(uuid "74cf55f4-6a94-4749-b185-3a9c86c1b6a7")
 	)
 	(junction
-		(at 1207.77 196.85)
+		(at 463.55 541.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74d5f5dd-b778-4136-a663-f1583a450d3c")
@@ -23860,7 +23840,7 @@
 		(uuid "810af5fc-3e35-4405-951a-a7f568b09408")
 	)
 	(junction
-		(at 1238.25 269.24)
+		(at 774.7 508)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "811a2b2b-3c56-4dd5-beaa-ec18fad932db")
@@ -24010,7 +23990,7 @@
 		(uuid "95166ec5-e748-484a-87bd-91a18f7bfccf")
 	)
 	(junction
-		(at 1225.55 246.38)
+		(at 762 485.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95a45459-bc01-47ea-92f6-e58ab20a6a7d")
@@ -24052,7 +24032,7 @@
 		(uuid "9a92bac4-4d41-4e8e-8751-d8f6f35c9d16")
 	)
 	(junction
-		(at 1238.25 256.54)
+		(at 774.7 495.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9acca722-108f-4113-98f3-1c8e5c1c0829")
@@ -24592,7 +24572,7 @@
 		(uuid "d53fdb1f-a757-4b2b-ad66-f57e9bfe453d")
 	)
 	(junction
-		(at 1202.69 266.7)
+		(at 739.14 505.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6822c4e-7d79-47b2-b6aa-8ad5b2984d56")
@@ -24760,12 +24740,6 @@
 		(uuid "e6398fbf-02ba-42ab-853e-e1d1896553e8")
 	)
 	(junction
-		(at 1409.7 218.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e7873a95-bb68-49d5-9a47-6867d22c0598")
-	)
-	(junction
 		(at 90.17 320.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -24844,7 +24818,7 @@
 		(uuid "ee516523-a695-46d4-a052-e8cac4e345d7")
 	)
 	(junction
-		(at 1214.12 316.23)
+		(at 750.57 554.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee97b483-943d-4480-8c8e-7a973d5575da")
@@ -24884,12 +24858,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f339986e-bfda-440a-be70-fdc81166175f")
-	)
-	(junction
-		(at 1372.87 261.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f3575044-f333-4523-bc1f-1c1bea8d1d1a")
 	)
 	(junction
 		(at 314.96 382.27)
@@ -24958,7 +24926,7 @@
 		(uuid "f93af42d-c606-484e-95d4-0157ff4b10a8")
 	)
 	(junction
-		(at 1207.77 160.02)
+		(at 463.55 504.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9cbb6e9-5981-46b3-a3fe-5c7550e063f3")
@@ -24982,7 +24950,7 @@
 		(uuid "fc36d825-da7c-41f6-b23f-c8eb4f813a7c")
 	)
 	(junction
-		(at 1211.58 256.54)
+		(at 748.03 495.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc954a78-f953-4b87-8453-785a2860077b")
@@ -25006,7 +24974,7 @@
 		(uuid "fdcd1a75-56b4-4e12-a972-032492df0077")
 	)
 	(junction
-		(at 1150.62 146.05)
+		(at 406.4 490.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe8b1cad-3d18-4c8b-83be-52fd1f7c2e5a")
@@ -25189,16 +25157,6 @@
 	)
 	(wire
 		(pts
-			(xy 1435.1 187.96) (xy 1435.1 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0366db7e-5689-4208-9297-3fe5135cde1e")
-	)
-	(wire
-		(pts
 			(xy 655.32 337.82) (xy 654.05 337.82)
 		)
 		(stroke
@@ -25219,7 +25177,7 @@
 	)
 	(wire
 		(pts
-			(xy 1150.62 146.05) (xy 1153.16 146.05)
+			(xy 406.4 490.22) (xy 408.94 490.22)
 		)
 		(stroke
 			(width 0)
@@ -25239,7 +25197,7 @@
 	)
 	(wire
 		(pts
-			(xy 1219.2 196.85) (xy 1219.2 194.31)
+			(xy 474.98 541.02) (xy 474.98 538.48)
 		)
 		(stroke
 			(width 0)
@@ -25379,16 +25337,6 @@
 	)
 	(wire
 		(pts
-			(xy 1407.16 166.37) (xy 1407.16 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0744695c-582b-4b62-8f9f-7ede4120d321")
-	)
-	(wire
-		(pts
 			(xy 318.77 91.44) (xy 318.77 92.71)
 		)
 		(stroke
@@ -25419,16 +25367,6 @@
 	)
 	(wire
 		(pts
-			(xy 1372.87 218.44) (xy 1409.7 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "083732b8-65c8-4dfa-a8d5-bd99eccaa150")
-	)
-	(wire
-		(pts
 			(xy 96.52 147.32) (xy 96.52 149.86)
 		)
 		(stroke
@@ -25449,17 +25387,7 @@
 	)
 	(wire
 		(pts
-			(xy 1435.1 264.16) (xy 1435.1 255.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08fbb7fc-678b-4c9e-8a92-0b898b07fb9d")
-	)
-	(wire
-		(pts
-			(xy 1207.77 184.15) (xy 1207.77 196.85)
+			(xy 463.55 528.32) (xy 463.55 541.02)
 		)
 		(stroke
 			(width 0)
@@ -25499,7 +25427,7 @@
 	)
 	(wire
 		(pts
-			(xy 1206.5 316.23) (xy 1214.12 316.23)
+			(xy 742.95 554.99) (xy 750.57 554.99)
 		)
 		(stroke
 			(width 0)
@@ -25549,7 +25477,7 @@
 	)
 	(wire
 		(pts
-			(xy 1278.89 287.02) (xy 1278.89 269.24)
+			(xy 815.34 525.78) (xy 815.34 508)
 		)
 		(stroke
 			(width 0)
@@ -25889,7 +25817,7 @@
 	)
 	(wire
 		(pts
-			(xy 1211.58 246.38) (xy 1211.58 256.54)
+			(xy 748.03 485.14) (xy 748.03 495.3)
 		)
 		(stroke
 			(width 0)
@@ -26046,16 +25974,6 @@
 			(type default)
 		)
 		(uuid "12e7675e-ff4e-4264-8e7a-26a795e5d0b9")
-	)
-	(wire
-		(pts
-			(xy 1372.87 261.62) (xy 1385.57 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1332f09f-7c88-49b4-a00d-c28db4831011")
 	)
 	(wire
 		(pts
@@ -26389,16 +26307,6 @@
 	)
 	(wire
 		(pts
-			(xy 1407.16 242.57) (xy 1407.16 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19c61da1-5a68-49bd-8295-b0fdef33b200")
-	)
-	(wire
-		(pts
 			(xy 115.57 396.24) (xy 132.08 396.24)
 		)
 		(stroke
@@ -26429,7 +26337,7 @@
 	)
 	(wire
 		(pts
-			(xy 1193.8 135.89) (xy 1150.62 135.89)
+			(xy 449.58 480.06) (xy 406.4 480.06)
 		)
 		(stroke
 			(width 0)
@@ -26629,7 +26537,7 @@
 	)
 	(wire
 		(pts
-			(xy 1150.62 135.89) (xy 1150.62 146.05)
+			(xy 406.4 480.06) (xy 406.4 490.22)
 		)
 		(stroke
 			(width 0)
@@ -26686,16 +26594,6 @@
 			(type default)
 		)
 		(uuid "1e97f994-2df5-46e9-9a49-04ce33a42597")
-	)
-	(wire
-		(pts
-			(xy 1414.78 156.21) (xy 1414.78 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ec63c7b-c87d-4109-a270-fb2e89d48e54")
 	)
 	(wire
 		(pts
@@ -26879,17 +26777,7 @@
 	)
 	(wire
 		(pts
-			(xy 1457.96 261.62) (xy 1461.77 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "226c3805-8c09-4eae-bda4-44a02b403c2d")
-	)
-	(wire
-		(pts
-			(xy 1225.55 236.22) (xy 1225.55 246.38)
+			(xy 762 474.98) (xy 762 485.14)
 		)
 		(stroke
 			(width 0)
@@ -26969,7 +26857,7 @@
 	)
 	(wire
 		(pts
-			(xy 1156.97 204.47) (xy 1150.62 204.47)
+			(xy 412.75 548.64) (xy 406.4 548.64)
 		)
 		(stroke
 			(width 0)
@@ -27339,7 +27227,7 @@
 	)
 	(wire
 		(pts
-			(xy 1219.2 256.54) (xy 1225.55 256.54)
+			(xy 755.65 495.3) (xy 762 495.3)
 		)
 		(stroke
 			(width 0)
@@ -27869,16 +27757,6 @@
 	)
 	(wire
 		(pts
-			(xy 1400.81 264.16) (xy 1407.16 264.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3399c33e-facd-497c-b4e2-dbaabcfe29b2")
-	)
-	(wire
-		(pts
 			(xy 398.78 149.86) (xy 414.02 149.86)
 		)
 		(stroke
@@ -27949,7 +27827,7 @@
 	)
 	(wire
 		(pts
-			(xy 1211.58 256.54) (xy 1211.58 266.7)
+			(xy 748.03 495.3) (xy 748.03 505.46)
 		)
 		(stroke
 			(width 0)
@@ -28149,7 +28027,7 @@
 	)
 	(wire
 		(pts
-			(xy 1238.25 302.26) (xy 1238.25 318.77)
+			(xy 774.7 541.02) (xy 774.7 557.53)
 		)
 		(stroke
 			(width 0)
@@ -28279,7 +28157,7 @@
 	)
 	(wire
 		(pts
-			(xy 1234.44 160.02) (xy 1244.6 160.02)
+			(xy 490.22 504.19) (xy 500.38 504.19)
 		)
 		(stroke
 			(width 0)
@@ -28319,7 +28197,7 @@
 	)
 	(wire
 		(pts
-			(xy 1148.08 264.16) (xy 1148.08 265.43)
+			(xy 684.53 502.92) (xy 684.53 504.19)
 		)
 		(stroke
 			(width 0)
@@ -28389,7 +28267,7 @@
 	)
 	(wire
 		(pts
-			(xy 1186.18 316.23) (xy 1206.5 316.23)
+			(xy 722.63 554.99) (xy 742.95 554.99)
 		)
 		(stroke
 			(width 0)
@@ -28469,7 +28347,7 @@
 	)
 	(wire
 		(pts
-			(xy 1156.97 194.31) (xy 1156.97 204.47)
+			(xy 412.75 538.48) (xy 412.75 548.64)
 		)
 		(stroke
 			(width 0)
@@ -28509,7 +28387,7 @@
 	)
 	(wire
 		(pts
-			(xy 1238.25 269.24) (xy 1278.89 269.24)
+			(xy 774.7 508) (xy 815.34 508)
 		)
 		(stroke
 			(width 0)
@@ -28819,16 +28697,6 @@
 	)
 	(wire
 		(pts
-			(xy 1435.1 242.57) (xy 1435.1 245.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "438da334-f145-44fc-8a40-96e45b27477c")
-	)
-	(wire
-		(pts
 			(xy 87.63 407.67) (xy 97.79 407.67)
 		)
 		(stroke
@@ -28859,7 +28727,7 @@
 	)
 	(wire
 		(pts
-			(xy 1150.62 176.53) (xy 1150.62 175.26)
+			(xy 406.4 520.7) (xy 406.4 519.43)
 		)
 		(stroke
 			(width 0)
@@ -28919,7 +28787,7 @@
 	)
 	(wire
 		(pts
-			(xy 1214.12 302.26) (xy 1214.12 316.23)
+			(xy 750.57 541.02) (xy 750.57 554.99)
 		)
 		(stroke
 			(width 0)
@@ -29089,16 +28957,6 @@
 	)
 	(wire
 		(pts
-			(xy 1372.87 234.95) (xy 1372.87 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "478b169f-e779-467f-a0ae-4693a94f377f")
-	)
-	(wire
-		(pts
 			(xy 631.19 402.59) (xy 633.73 402.59)
 		)
 		(stroke
@@ -29229,7 +29087,7 @@
 	)
 	(wire
 		(pts
-			(xy 1219.2 236.22) (xy 1225.55 236.22)
+			(xy 755.65 474.98) (xy 762 474.98)
 		)
 		(stroke
 			(width 0)
@@ -29276,16 +29134,6 @@
 			(type default)
 		)
 		(uuid "4aca3417-0d7b-4e26-b1de-2f268659209c")
-	)
-	(wire
-		(pts
-			(xy 1372.87 242.57) (xy 1372.87 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b3159ff-cbcb-48b5-ad14-f03bec6f5ce8")
 	)
 	(wire
 		(pts
@@ -29339,7 +29187,7 @@
 	)
 	(wire
 		(pts
-			(xy 1238.25 318.77) (xy 1278.89 318.77)
+			(xy 774.7 557.53) (xy 815.34 557.53)
 		)
 		(stroke
 			(width 0)
@@ -29376,16 +29224,6 @@
 			(type default)
 		)
 		(uuid "4ca4b43e-801e-4407-bbee-0991f57c9cda")
-	)
-	(wire
-		(pts
-			(xy 1409.7 218.44) (xy 1409.7 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cc87dc6-7a39-4e78-b7ed-9d8ecba277ef")
 	)
 	(wire
 		(pts
@@ -29459,7 +29297,7 @@
 	)
 	(wire
 		(pts
-			(xy 1238.25 256.54) (xy 1238.25 269.24)
+			(xy 774.7 495.3) (xy 774.7 508)
 		)
 		(stroke
 			(width 0)
@@ -29469,7 +29307,7 @@
 	)
 	(wire
 		(pts
-			(xy 1223.01 302.26) (xy 1214.12 302.26)
+			(xy 759.46 541.02) (xy 750.57 541.02)
 		)
 		(stroke
 			(width 0)
@@ -29519,16 +29357,6 @@
 	)
 	(wire
 		(pts
-			(xy 1409.7 142.24) (xy 1409.7 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ee21ecc-d664-4995-90fa-637ceed6253d")
-	)
-	(wire
-		(pts
 			(xy 400.05 382.27) (xy 398.78 382.27)
 		)
 		(stroke
@@ -29539,7 +29367,7 @@
 	)
 	(wire
 		(pts
-			(xy 1154.43 323.85) (xy 1154.43 313.69)
+			(xy 690.88 562.61) (xy 690.88 552.45)
 		)
 		(stroke
 			(width 0)
@@ -30039,7 +29867,7 @@
 	)
 	(wire
 		(pts
-			(xy 1186.18 266.7) (xy 1202.69 266.7)
+			(xy 722.63 505.46) (xy 739.14 505.46)
 		)
 		(stroke
 			(width 0)
@@ -30219,16 +30047,6 @@
 	)
 	(wire
 		(pts
-			(xy 1442.72 264.16) (xy 1435.1 264.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "592cb30b-f8a2-46a0-92cf-749d862cbb8a")
-	)
-	(wire
-		(pts
 			(xy 722.63 59.69) (xy 722.63 58.42)
 		)
 		(stroke
@@ -30256,16 +30074,6 @@
 			(type default)
 		)
 		(uuid "596e3474-772e-4a54-a65a-df47ff912e37")
-	)
-	(wire
-		(pts
-			(xy 1402.08 242.57) (xy 1407.16 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "598366d3-ece2-455c-9cc2-ef43c1127024")
 	)
 	(wire
 		(pts
@@ -30409,7 +30217,7 @@
 	)
 	(wire
 		(pts
-			(xy 1207.77 160.02) (xy 1219.2 160.02)
+			(xy 463.55 504.19) (xy 474.98 504.19)
 		)
 		(stroke
 			(width 0)
@@ -30589,7 +30397,7 @@
 	)
 	(wire
 		(pts
-			(xy 1202.69 266.7) (xy 1211.58 266.7)
+			(xy 739.14 505.46) (xy 748.03 505.46)
 		)
 		(stroke
 			(width 0)
@@ -30786,16 +30594,6 @@
 			(type dash)
 		)
 		(uuid "613c0883-726f-4f5e-97f8-d2bbe8343962")
-	)
-	(wire
-		(pts
-			(xy 1407.16 264.16) (xy 1407.16 254)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "617a0c95-46ac-4543-a3e3-f133c76874c5")
 	)
 	(wire
 		(pts
@@ -31049,7 +30847,7 @@
 	)
 	(wire
 		(pts
-			(xy 1273.81 168.91) (xy 1268.73 168.91)
+			(xy 529.59 513.08) (xy 524.51 513.08)
 		)
 		(stroke
 			(width 0)
@@ -31289,7 +31087,7 @@
 	)
 	(wire
 		(pts
-			(xy 1187.45 196.85) (xy 1207.77 196.85)
+			(xy 443.23 541.02) (xy 463.55 541.02)
 		)
 		(stroke
 			(width 0)
@@ -31346,16 +31144,6 @@
 			(type default)
 		)
 		(uuid "6f24a701-0393-4e2e-8433-8eff6d55b89a")
-	)
-	(wire
-		(pts
-			(xy 1409.7 213.36) (xy 1409.7 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f3f111d-2d14-4c8e-ba04-c6eb3afc9c29")
 	)
 	(wire
 		(pts
@@ -31659,16 +31447,6 @@
 	)
 	(wire
 		(pts
-			(xy 1370.33 261.62) (xy 1372.87 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "753412c1-70a8-45f1-9b85-de0fd0ffbe73")
-	)
-	(wire
-		(pts
 			(xy 744.22 312.42) (xy 735.33 312.42)
 		)
 		(stroke
@@ -31889,16 +31667,6 @@
 	)
 	(wire
 		(pts
-			(xy 1414.78 166.37) (xy 1407.16 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "793508d2-12bf-433d-ba6a-b92c9cad008d")
-	)
-	(wire
-		(pts
 			(xy 739.14 345.44) (xy 739.14 344.17)
 		)
 		(stroke
@@ -32029,7 +31797,7 @@
 	)
 	(wire
 		(pts
-			(xy 1234.44 269.24) (xy 1238.25 269.24)
+			(xy 770.89 508) (xy 774.7 508)
 		)
 		(stroke
 			(width 0)
@@ -32119,7 +31887,7 @@
 	)
 	(wire
 		(pts
-			(xy 1153.16 146.05) (xy 1153.16 157.48)
+			(xy 408.94 490.22) (xy 408.94 501.65)
 		)
 		(stroke
 			(width 0)
@@ -32689,7 +32457,7 @@
 	)
 	(wire
 		(pts
-			(xy 1211.58 266.7) (xy 1219.2 266.7)
+			(xy 748.03 505.46) (xy 755.65 505.46)
 		)
 		(stroke
 			(width 0)
@@ -32739,7 +32507,7 @@
 	)
 	(wire
 		(pts
-			(xy 1154.43 323.85) (xy 1148.08 323.85)
+			(xy 690.88 562.61) (xy 684.53 562.61)
 		)
 		(stroke
 			(width 0)
@@ -33059,16 +32827,6 @@
 	)
 	(wire
 		(pts
-			(xy 1435.1 160.02) (xy 1435.1 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ff27a49-7332-4f9d-82cc-380e94653163")
-	)
-	(wire
-		(pts
 			(xy 452.12 76.2) (xy 452.12 78.105)
 		)
 		(stroke
@@ -33206,16 +32964,6 @@
 			(type default)
 		)
 		(uuid "9245bae8-61a8-4d5a-90aa-e9fe45ec9954")
-	)
-	(wire
-		(pts
-			(xy 1435.1 242.57) (xy 1440.18 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "925ce5c3-9241-4ed3-af9e-ef120b91b01e")
 	)
 	(wire
 		(pts
@@ -33409,16 +33157,6 @@
 	)
 	(wire
 		(pts
-			(xy 1407.16 187.96) (xy 1407.16 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95a1b51f-dd7a-4905-a8e6-fe2d04af585d")
-	)
-	(wire
-		(pts
 			(xy 732.79 388.62) (xy 739.14 388.62)
 		)
 		(stroke
@@ -33469,16 +33207,6 @@
 	)
 	(wire
 		(pts
-			(xy 1402.08 166.37) (xy 1407.16 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96b4ccdf-8e6b-4167-b306-2eb5fbb831c7")
-	)
-	(wire
-		(pts
 			(xy 646.43 335.28) (xy 655.32 335.28)
 		)
 		(stroke
@@ -33509,7 +33237,7 @@
 	)
 	(wire
 		(pts
-			(xy 1219.2 246.38) (xy 1225.55 246.38)
+			(xy 755.65 485.14) (xy 762 485.14)
 		)
 		(stroke
 			(width 0)
@@ -33559,7 +33287,7 @@
 	)
 	(wire
 		(pts
-			(xy 1202.69 254) (xy 1202.69 266.7)
+			(xy 739.14 492.76) (xy 739.14 505.46)
 		)
 		(stroke
 			(width 0)
@@ -33669,7 +33397,7 @@
 	)
 	(wire
 		(pts
-			(xy 1233.17 318.77) (xy 1238.25 318.77)
+			(xy 769.62 557.53) (xy 774.7 557.53)
 		)
 		(stroke
 			(width 0)
@@ -33779,7 +33507,7 @@
 	)
 	(wire
 		(pts
-			(xy 1225.55 256.54) (xy 1230.63 256.54)
+			(xy 762 495.3) (xy 767.08 495.3)
 		)
 		(stroke
 			(width 0)
@@ -33969,16 +33697,6 @@
 	)
 	(wire
 		(pts
-			(xy 1400.81 187.96) (xy 1407.16 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f6093ea-3f15-4aba-a5fc-04545414763c")
-	)
-	(wire
-		(pts
 			(xy 62.23 167.64) (xy 72.39 167.64)
 		)
 		(stroke
@@ -34009,7 +33727,7 @@
 	)
 	(wire
 		(pts
-			(xy 1225.55 246.38) (xy 1230.63 246.38)
+			(xy 762 485.14) (xy 767.08 485.14)
 		)
 		(stroke
 			(width 0)
@@ -34219,7 +33937,7 @@
 	)
 	(wire
 		(pts
-			(xy 1278.89 287.02) (xy 1285.24 287.02)
+			(xy 815.34 525.78) (xy 821.69 525.78)
 		)
 		(stroke
 			(width 0)
@@ -34529,7 +34247,7 @@
 	)
 	(wire
 		(pts
-			(xy 1234.44 196.85) (xy 1243.33 196.85)
+			(xy 490.22 541.02) (xy 499.11 541.02)
 		)
 		(stroke
 			(width 0)
@@ -34579,7 +34297,7 @@
 	)
 	(wire
 		(pts
-			(xy 1156.97 194.31) (xy 1172.21 194.31)
+			(xy 412.75 538.48) (xy 427.99 538.48)
 		)
 		(stroke
 			(width 0)
@@ -34639,7 +34357,7 @@
 	)
 	(wire
 		(pts
-			(xy 1225.55 246.38) (xy 1225.55 256.54)
+			(xy 762 485.14) (xy 762 495.3)
 		)
 		(stroke
 			(width 0)
@@ -34739,7 +34457,7 @@
 	)
 	(wire
 		(pts
-			(xy 1187.45 160.02) (xy 1207.77 160.02)
+			(xy 443.23 504.19) (xy 463.55 504.19)
 		)
 		(stroke
 			(width 0)
@@ -34876,16 +34594,6 @@
 			(type default)
 		)
 		(uuid "ad6945e1-ef5d-46ae-b1c3-1335cac34e06")
-	)
-	(wire
-		(pts
-			(xy 1435.1 166.37) (xy 1440.18 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad9ca8fb-9cf7-4eef-aadc-bd2205999b88")
 	)
 	(wire
 		(pts
@@ -35079,16 +34787,6 @@
 	)
 	(wire
 		(pts
-			(xy 1414.78 148.59) (xy 1414.78 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0620d55-98e8-499d-b752-b42b553c05e6")
-	)
-	(wire
-		(pts
 			(xy 378.46 359.41) (xy 383.54 359.41)
 		)
 		(stroke
@@ -35116,16 +34814,6 @@
 			(type default)
 		)
 		(uuid "b0b653dc-85a4-47f3-b877-cde74ae6051c")
-	)
-	(wire
-		(pts
-			(xy 1432.56 139.7) (xy 1432.56 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0e8025e-9375-4304-903f-d27f4c5d8606")
 	)
 	(wire
 		(pts
@@ -35319,7 +35007,7 @@
 	)
 	(wire
 		(pts
-			(xy 1211.58 236.22) (xy 1211.58 246.38)
+			(xy 748.03 474.98) (xy 748.03 485.14)
 		)
 		(stroke
 			(width 0)
@@ -35499,7 +35187,7 @@
 	)
 	(wire
 		(pts
-			(xy 1214.12 316.23) (xy 1217.93 316.23)
+			(xy 750.57 554.99) (xy 754.38 554.99)
 		)
 		(stroke
 			(width 0)
@@ -35916,16 +35604,6 @@
 			(type default)
 		)
 		(uuid "bf68badd-888f-4fd5-9517-b8e968a647df")
-	)
-	(wire
-		(pts
-			(xy 1407.16 236.22) (xy 1407.16 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfadd1bd-7ea0-4ec9-95a3-49c5da274f81")
 	)
 	(wire
 		(pts
@@ -36529,7 +36207,7 @@
 	)
 	(wire
 		(pts
-			(xy 1238.25 236.22) (xy 1238.25 246.38)
+			(xy 774.7 474.98) (xy 774.7 485.14)
 		)
 		(stroke
 			(width 0)
@@ -36589,7 +36267,7 @@
 	)
 	(wire
 		(pts
-			(xy 1244.6 135.89) (xy 1244.6 160.02)
+			(xy 500.38 480.06) (xy 500.38 504.19)
 		)
 		(stroke
 			(width 0)
@@ -36729,7 +36407,7 @@
 	)
 	(wire
 		(pts
-			(xy 1285.24 299.72) (xy 1278.89 299.72)
+			(xy 821.69 538.48) (xy 815.34 538.48)
 		)
 		(stroke
 			(width 0)
@@ -36799,7 +36477,7 @@
 	)
 	(wire
 		(pts
-			(xy 1230.63 302.26) (xy 1238.25 302.26)
+			(xy 767.08 541.02) (xy 774.7 541.02)
 		)
 		(stroke
 			(width 0)
@@ -36809,7 +36487,7 @@
 	)
 	(wire
 		(pts
-			(xy 1278.89 299.72) (xy 1278.89 318.77)
+			(xy 815.34 538.48) (xy 815.34 557.53)
 		)
 		(stroke
 			(width 0)
@@ -36999,7 +36677,7 @@
 	)
 	(wire
 		(pts
-			(xy 1225.55 236.22) (xy 1230.63 236.22)
+			(xy 762 474.98) (xy 767.08 474.98)
 		)
 		(stroke
 			(width 0)
@@ -37239,7 +36917,7 @@
 	)
 	(wire
 		(pts
-			(xy 1268.73 181.61) (xy 1286.51 181.61)
+			(xy 524.51 525.78) (xy 542.29 525.78)
 		)
 		(stroke
 			(width 0)
@@ -37249,7 +36927,7 @@
 	)
 	(wire
 		(pts
-			(xy 1153.16 157.48) (xy 1172.21 157.48)
+			(xy 408.94 501.65) (xy 427.99 501.65)
 		)
 		(stroke
 			(width 0)
@@ -37266,16 +36944,6 @@
 			(type default)
 		)
 		(uuid "d60e358d-fd47-432b-b419-41f7c1e4769e")
-	)
-	(wire
-		(pts
-			(xy 1432.56 213.36) (xy 1432.56 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6277988-d34d-4596-b786-249021d72012")
 	)
 	(wire
 		(pts
@@ -37326,16 +36994,6 @@
 			(type default)
 		)
 		(uuid "d6ebbccb-09be-4c43-973a-df26032272f1")
-	)
-	(wire
-		(pts
-			(xy 1442.72 187.96) (xy 1435.1 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6fff8c3-f97a-439c-b702-cb7a070189c8")
 	)
 	(wire
 		(pts
@@ -37399,7 +37057,7 @@
 	)
 	(wire
 		(pts
-			(xy 1219.2 160.02) (xy 1219.2 157.48)
+			(xy 474.98 504.19) (xy 474.98 501.65)
 		)
 		(stroke
 			(width 0)
@@ -37419,7 +37077,7 @@
 	)
 	(wire
 		(pts
-			(xy 1201.42 135.89) (xy 1244.6 135.89)
+			(xy 457.2 480.06) (xy 500.38 480.06)
 		)
 		(stroke
 			(width 0)
@@ -37459,23 +37117,13 @@
 	)
 	(wire
 		(pts
-			(xy 1148.08 264.16) (xy 1170.94 264.16)
+			(xy 684.53 502.92) (xy 707.39 502.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d90530aa-6a1d-4fbf-be7c-91978daeca0d")
-	)
-	(wire
-		(pts
-			(xy 1435.1 166.37) (xy 1435.1 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d90ba289-1bd1-4cf0-847f-550cfb477d0b")
 	)
 	(wire
 		(pts
@@ -37749,7 +37397,7 @@
 	)
 	(wire
 		(pts
-			(xy 1207.77 147.32) (xy 1207.77 160.02)
+			(xy 463.55 491.49) (xy 463.55 504.19)
 		)
 		(stroke
 			(width 0)
@@ -37969,7 +37617,7 @@
 	)
 	(wire
 		(pts
-			(xy 1150.62 146.05) (xy 1150.62 147.32)
+			(xy 406.4 490.22) (xy 406.4 491.49)
 		)
 		(stroke
 			(width 0)
@@ -38009,7 +37657,7 @@
 	)
 	(wire
 		(pts
-			(xy 1281.43 168.91) (xy 1286.51 168.91)
+			(xy 537.21 513.08) (xy 542.29 513.08)
 		)
 		(stroke
 			(width 0)
@@ -38419,7 +38067,7 @@
 	)
 	(wire
 		(pts
-			(xy 1154.43 313.69) (xy 1170.94 313.69)
+			(xy 690.88 552.45) (xy 707.39 552.45)
 		)
 		(stroke
 			(width 0)
@@ -38496,16 +38144,6 @@
 			(type default)
 		)
 		(uuid "ea9565cc-145a-481d-aa12-948784ead07b")
-	)
-	(wire
-		(pts
-			(xy 1381.76 185.42) (xy 1385.57 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eac5ad66-b1c4-4b1b-a293-a60843c8e8cc")
 	)
 	(wire
 		(pts
@@ -38686,16 +38324,6 @@
 			(type default)
 		)
 		(uuid "ee38a0aa-1702-4706-a7ff-75b3b09d6ba5")
-	)
-	(wire
-		(pts
-			(xy 1414.78 142.24) (xy 1409.7 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee591e1c-eba3-4767-b035-2a6e7c9cd6f4")
 	)
 	(wire
 		(pts
@@ -38979,7 +38607,7 @@
 	)
 	(wire
 		(pts
-			(xy 1207.77 196.85) (xy 1219.2 196.85)
+			(xy 463.55 541.02) (xy 474.98 541.02)
 		)
 		(stroke
 			(width 0)
@@ -39159,7 +38787,7 @@
 	)
 	(wire
 		(pts
-			(xy 1206.5 302.26) (xy 1206.5 316.23)
+			(xy 742.95 541.02) (xy 742.95 554.99)
 		)
 		(stroke
 			(width 0)
@@ -39179,16 +38807,6 @@
 	)
 	(wire
 		(pts
-			(xy 1435.1 236.22) (xy 1435.1 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f84276f3-080f-44c4-a141-a2b512095103")
-	)
-	(wire
-		(pts
 			(xy 96.52 138.43) (xy 96.52 147.32)
 		)
 		(stroke
@@ -39196,16 +38814,6 @@
 			(type default)
 		)
 		(uuid "f84896be-58d8-443b-96d2-09070a33c27d")
-	)
-	(wire
-		(pts
-			(xy 1407.16 160.02) (xy 1407.16 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8798d77-299c-4034-aa92-edecda20802b")
 	)
 	(wire
 		(pts
@@ -39319,7 +38927,7 @@
 	)
 	(wire
 		(pts
-			(xy 1238.25 246.38) (xy 1238.25 256.54)
+			(xy 774.7 485.14) (xy 774.7 495.3)
 		)
 		(stroke
 			(width 0)
@@ -39499,16 +39107,6 @@
 	)
 	(wire
 		(pts
-			(xy 1409.7 139.7) (xy 1409.7 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcc66970-8588-4af3-96c4-c2945b053e72")
-	)
-	(wire
-		(pts
 			(xy 176.53 396.24) (xy 170.18 396.24)
 		)
 		(stroke
@@ -39546,16 +39144,6 @@
 			(type default)
 		)
 		(uuid "fd871ce2-e082-457e-8264-0b68527b7ae9")
-	)
-	(wire
-		(pts
-			(xy 1457.96 185.42) (xy 1461.77 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fda343ea-c73f-470b-8044-adc9729d47fb")
 	)
 	(wire
 		(pts
@@ -40240,7 +39828,7 @@
 		(uuid "085e714b-3e23-4fe2-8114-80f1d3d5c00c")
 	)
 	(label "FC Neg"
-		(at 1243.33 196.85 180)
+		(at 499.11 541.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40250,7 +39838,7 @@
 		(uuid "0a92ee12-7032-4319-a4a5-d7324962bdd0")
 	)
 	(label "Link Pos"
-		(at 1202.69 160.02 180)
+		(at 458.47 504.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40635,7 +40223,7 @@
 		(uuid "3145160d-4bfc-4543-bbc3-bd472d60b846")
 	)
 	(label "Batt Positive"
-		(at 1167.13 264.16 180)
+		(at 703.58 502.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40765,7 +40353,7 @@
 		(uuid "42395194-4857-4e42-8c3b-9d33d9ad1e13")
 	)
 	(label "Batt Negative"
-		(at 1170.94 194.31 180)
+		(at 426.72 538.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40805,7 +40393,7 @@
 		(uuid "452e7908-e061-4189-9f7f-1f59f819fc92")
 	)
 	(label "FC Pos"
-		(at 1243.33 160.02 180)
+		(at 499.11 504.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41028,7 +40616,7 @@
 		(uuid "77616dcc-ea74-4c20-91e0-4bf8d5d01f5a")
 	)
 	(label "Link Neg"
-		(at 1202.69 316.23 180)
+		(at 739.14 554.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41402,7 +40990,7 @@
 		(uuid "a26673c8-4351-40ab-ac6e-65418eaea231")
 	)
 	(label "Batt Positive"
-		(at 1170.94 157.48 180)
+		(at 426.72 501.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41422,7 +41010,7 @@
 		(uuid "a56a24a5-fd14-4bd6-b1ac-5f9bd896de6c")
 	)
 	(label "FC Neg"
-		(at 1248.41 318.77 180)
+		(at 784.86 557.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41644,7 +41232,7 @@
 		)
 	)
 	(label "FC Pos"
-		(at 1248.41 269.24 180)
+		(at 784.86 508 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41734,7 +41322,7 @@
 		(uuid "cfff2374-46d9-408d-92da-a2e3453f66d2")
 	)
 	(label "Link Pos"
-		(at 1197.61 266.7 180)
+		(at 734.06 505.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42034,7 +41622,7 @@
 		(uuid "f14f1214-bab7-4410-b893-b425848dfa42")
 	)
 	(label "Link Neg"
-		(at 1202.69 196.85 180)
+		(at 458.47 541.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42084,7 +41672,7 @@
 		(uuid "f437ed5e-8052-43bc-b267-64c2175d68e3")
 	)
 	(label "Batt Negative"
-		(at 1168.4 313.69 180)
+		(at 704.85 552.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42807,28 +42395,6 @@
 			)
 		)
 	)
-	(global_label "Drive Unit Negative"
-		(shape input)
-		(at 1440.18 166.37 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3417a1b3-9e82-4c5b-ab59-d2bdf0a7d722")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 1461.7314 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BatSPI_CS"
 		(shape bidirectional)
 		(at 419.1 215.9 0)
@@ -42842,28 +42408,6 @@
 		(uuid "352e0f03-77e2-4abd-a865-16a5d2ab38ef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 432.8726 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Cells Positive - Always Live"
-		(shape input)
-		(at 1461.77 261.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3939473e-4e93-4678-8910-f2ed3f55bc50")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 1492.2718 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43027,31 +42571,9 @@
 			)
 		)
 	)
-	(global_label "FC Positive Input"
-		(shape input)
-		(at 1409.7 139.7 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4706a78c-9515-45da-998b-0280e981a08a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 1390.2049 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Drive Unit Pos"
 		(shape input)
-		(at 1207.77 147.32 180)
+		(at 463.55 491.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -43061,51 +42583,7 @@
 		)
 		(uuid "4720b2cc-82c5-47a4-90c2-72c60b157dd3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 1190.8753 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Fast Charge Positive"
-		(shape input)
-		(at 1409.7 213.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "474a98d3-e4a2-4554-a4b7-b823e418800a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 1386.7578 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Drive Unit Positive"
-		(shape input)
-		(at 1402.08 166.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4c245c40-4520-4f42-9283-4a1556885814")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 1381.1938 166.37 0)
+			(at 446.6553 491.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43161,7 +42639,7 @@
 	)
 	(global_label "Drive Unit Neg"
 		(shape input)
-		(at 1207.77 184.15 180)
+		(at 463.55 528.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -43171,7 +42649,7 @@
 		)
 		(uuid "517e7b3d-e899-482f-a018-1b786403c31d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 1190.7543 184.15 0)
+			(at 446.5343 528.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43221,50 +42699,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Drive Unit Negative"
-		(shape input)
-		(at 1440.18 242.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5631a3a3-0841-4c16-b452-8112f2c96a16")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 1461.7314 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Cells Positive - Always Live"
-		(shape input)
-		(at 1381.76 185.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "61bcf24b-c326-471c-8fbc-6aa8b28302ea")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 1351.2582 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -43381,7 +42815,7 @@
 	)
 	(global_label "Drive Unit Neg"
 		(shape input)
-		(at 1206.5 302.26 180)
+		(at 742.95 541.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -43391,7 +42825,7 @@
 		)
 		(uuid "721888cf-2497-4a1c-bbaa-2974fbf40467")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 1189.4843 302.26 0)
+			(at 725.9343 541.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43513,7 +42947,7 @@
 	)
 	(global_label "Drive Unit Pos"
 		(shape input)
-		(at 1268.73 168.91 180)
+		(at 524.51 513.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -43523,7 +42957,7 @@
 		)
 		(uuid "83244e51-8a33-41cb-95f4-6382a2881572")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 1251.8353 168.91 0)
+			(at 507.6153 513.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43755,7 +43189,7 @@
 	)
 	(global_label "Drive Unit Pos"
 		(shape input)
-		(at 1202.69 254 180)
+		(at 739.14 492.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -43765,7 +43199,7 @@
 		)
 		(uuid "af30a836-21ca-436e-9104-789ceecd0791")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 1185.7953 254 0)
+			(at 722.2453 492.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43854,28 +43288,6 @@
 		(uuid "bb09ae45-b504-424c-90ec-c17225855fc9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 137.2085 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Fast Charge Negative"
-		(shape input)
-		(at 1432.56 213.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bd97acbf-a7c2-4e77-b837-1d107e0271af")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 1456.1674 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44017,28 +43429,6 @@
 			)
 		)
 	)
-	(global_label "Drive Unit Positive"
-		(shape input)
-		(at 1402.08 242.57 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c9155d6e-0415-476f-867c-27863f1c877e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 1381.1938 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BatSPI_MOSI"
 		(shape bidirectional)
 		(at 665.48 318.77 0)
@@ -44052,28 +43442,6 @@
 		(uuid "d0e3d48e-0be9-402b-a11a-c2b69b601e1b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 681.3693 318.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "FC Negative Input"
-		(shape input)
-		(at 1432.56 139.7 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d1eab6f9-a97d-4f85-ab7e-c3a897fa21e1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 1452.7203 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44189,28 +43557,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Cells Positive - Always Live"
-		(shape input)
-		(at 1461.77 185.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dcbbaa2b-cf58-41c8-bc7f-a79e639e3b4e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 1492.2718 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -44415,7 +43761,7 @@
 	)
 	(global_label "Drive Unit Neg"
 		(shape input)
-		(at 1268.73 181.61 180)
+		(at 524.51 525.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -44425,7 +43771,7 @@
 		)
 		(uuid "e78202dc-6403-4d74-9306-24996e734b2d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 1251.7143 181.61 0)
+			(at 507.4943 525.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44448,28 +43794,6 @@
 		(uuid "e8ba21d0-dc1e-421f-b3a7-f257e7be0156")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 841.7462 302.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Cells Positive - Always Live"
-		(shape input)
-		(at 1370.33 261.62 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e99b7cae-62c2-4418-88ae-d0dc4efe12a2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 1339.8282 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44937,82 +44261,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Relay:Fujitsu_FTR-LYAA005x")
-		(at 1450.34 193.04 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "020f2ab3-57e0-4719-9515-5920c874e2cf")
-		(property "Reference" "K3"
-			(at 1450.34 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Link Negative"
-			(at 1450.34 181.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 1449.07 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 1446.53 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Relay, SPST Form A, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
-			(at 1450.34 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "13"
-			(uuid "f01d74e1-cc0d-44e4-86cf-8d914a9c913b")
-		)
-		(pin "A2"
-			(uuid "149efbc3-d5d9-4e49-a50f-b13f4f08884f")
-		)
-		(pin "A1"
-			(uuid "c3ac2b40-4c23-4ac0-b140-6da73776921c")
-		)
-		(pin "14"
-			(uuid "dcf246d4-b588-4c9c-a2c6-d1ad63c39f98")
-		)
-		(instances
-			(project "bms"
-				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
-					(reference "K3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "74xGxx:74LVC1G08")
 		(at 713.74 369.57 0)
 		(mirror y)
@@ -45100,7 +44348,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery")
-		(at 1150.62 189.23 0)
+		(at 406.4 533.4 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -45109,7 +44357,7 @@
 		(dnp no)
 		(uuid "027d9eda-60b0-44d0-ad69-022c03e41336")
 		(property "Reference" "BT3"
-			(at 1147.826 187.96 0)
+			(at 403.606 532.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45118,7 +44366,7 @@
 			)
 		)
 		(property "Value" "~100V Brick"
-			(at 1147.826 190.5 0)
+			(at 403.606 534.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45127,7 +44375,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 1150.62 187.706 90)
+			(at 406.4 531.876 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45136,7 +44384,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 1150.62 187.706 90)
+			(at 406.4 531.876 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45145,7 +44393,7 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
-			(at 1150.62 189.23 0)
+			(at 406.4 533.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48286,82 +47534,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Shunt")
-		(at 1435.1 250.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19852117-35d4-4939-ab0c-5c5cdd0251eb")
-		(property "Reference" "R166"
-			(at 1433.83 248.9199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_Shunt"
-			(at 1433.83 251.4599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 1433.322 250.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 1435.1 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Shunt resistor with Kelvin connections"
-			(at 1435.1 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c5d70c56-1f19-4644-b7f1-3fc0ed3b4a7e")
-		)
-		(pin "3"
-			(uuid "b1f041b2-ba42-412b-a4c1-c660e8cbf153")
-		)
-		(pin "2"
-			(uuid "6020c512-fd9f-4fba-90e2-684dcb5900da")
-		)
-		(pin "4"
-			(uuid "34c91e13-2d2b-4827-b67d-1eeb016e8b1f")
-		)
-		(instances
-			(project "bms"
-				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
-					(reference "R166")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 274.32 157.48 270)
 		(unit 1)
@@ -50756,7 +49928,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery")
-		(at 1150.62 199.39 0)
+		(at 406.4 543.56 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -50765,7 +49937,7 @@
 		(dnp no)
 		(uuid "22380adb-2d07-48b1-9397-86bdb7d0b7e5")
 		(property "Reference" "BT4"
-			(at 1147.826 198.12 0)
+			(at 403.606 542.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50774,7 +49946,7 @@
 			)
 		)
 		(property "Value" "~100V Brick"
-			(at 1147.826 200.66 0)
+			(at 403.606 544.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50783,7 +49955,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 1150.62 197.866 90)
+			(at 406.4 542.036 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50792,7 +49964,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 1150.62 197.866 90)
+			(at 406.4 542.036 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50801,7 +49973,7 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
-			(at 1150.62 199.39 0)
+			(at 406.4 543.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51128,7 +50300,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery")
-		(at 1148.08 280.67 0)
+		(at 684.53 519.43 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -51137,7 +50309,7 @@
 		(dnp no)
 		(uuid "23c12b97-4b89-444d-8c4b-7b27eaa8f1cb")
 		(property "Reference" "BT7"
-			(at 1145.032 279.4 0)
+			(at 681.482 518.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51146,7 +50318,7 @@
 			)
 		)
 		(property "Value" "~100V Brick"
-			(at 1145.032 281.94 0)
+			(at 681.482 520.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51155,7 +50327,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 1148.08 279.146 90)
+			(at 684.53 517.906 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51164,7 +50336,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 1148.08 279.146 90)
+			(at 684.53 517.906 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51173,7 +50345,7 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
-			(at 1148.08 280.67 0)
+			(at 684.53 519.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52585,7 +51757,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 1197.61 135.89 90)
+		(at 453.39 480.06 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -52594,7 +51766,7 @@
 		(dnp no)
 		(uuid "2cfa606c-ed4d-4d04-97c8-f3ad3c13eada")
 		(property "Reference" "R176"
-			(at 1199.642 133.096 90)
+			(at 455.422 477.266 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52603,7 +51775,7 @@
 			)
 		)
 		(property "Value" "27R 50W"
-			(at 1201.928 138.684 90)
+			(at 457.708 482.854 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52612,7 +51784,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 1197.864 136.906 90)
+			(at 453.644 481.076 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52621,7 +51793,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 1197.61 135.89 0)
+			(at 453.39 480.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52630,7 +51802,7 @@
 			)
 		)
 		(property "Description" "Pre-Charge"
-			(at 1198.118 141.478 90)
+			(at 453.898 485.648 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53963,82 +53135,6 @@
 			(project "bms"
 				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
 					(reference "J14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Shunt")
-		(at 1435.1 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3b8c376b-4793-4839-ae51-e9a6e99302ba")
-		(property "Reference" "R163"
-			(at 1433.83 172.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_Shunt"
-			(at 1433.83 175.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 1433.322 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 1435.1 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Shunt resistor with Kelvin connections"
-			(at 1435.1 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8e08e8cd-0a30-4cc3-85ee-645ecf940ad6")
-		)
-		(pin "3"
-			(uuid "73a01669-5b84-4fa4-8438-423a030b1109")
-		)
-		(pin "2"
-			(uuid "ed78e641-65fb-4796-8cf5-941d2792b1ee")
-		)
-		(pin "4"
-			(uuid "48724d6a-c47b-4ffa-a4fd-db19f0556a91")
-		)
-		(instances
-			(project ""
-				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
-					(reference "R163")
 					(unit 1)
 				)
 			)
@@ -55713,76 +54809,6 @@
 			(project "bms"
 				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
 					(reference "D19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse")
-		(at 1407.16 250.19 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "43592077-5a0c-4cdd-a9fb-aa9a04642751")
-		(property "Reference" "F4"
-			(at 1404.874 249.174 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Pyro Fuse"
-			(at 1405.128 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 1408.938 250.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 1407.16 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 1407.16 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ded9baff-cb93-4e27-a874-3f37ad770383")
-		)
-		(pin "2"
-			(uuid "c930aed4-eeca-47ce-b155-69fb8fd7c04d")
-		)
-		(instances
-			(project "bms"
-				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
-					(reference "F4")
 					(unit 1)
 				)
 			)
@@ -57970,7 +56996,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery")
-		(at 1148.08 308.61 0)
+		(at 684.53 547.37 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -57979,7 +57005,7 @@
 		(dnp no)
 		(uuid "4e8aa3e4-21be-47e1-a785-b8ace5b0fc36")
 		(property "Reference" "BT8"
-			(at 1145.286 307.34 0)
+			(at 681.736 546.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57988,7 +57014,7 @@
 			)
 		)
 		(property "Value" "~100V Brick"
-			(at 1145.286 309.88 0)
+			(at 681.736 548.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57997,7 +57023,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 1148.08 307.086 90)
+			(at 684.53 545.846 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58006,7 +57032,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 1148.08 307.086 90)
+			(at 684.53 545.846 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58015,7 +57041,7 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
-			(at 1148.08 308.61 0)
+			(at 684.53 547.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62356,82 +61382,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Relay:Fujitsu_FTR-LYAA005x")
-		(at 1450.34 269.24 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "684c4eb8-e542-4245-a9cf-fd5593e33864")
-		(property "Reference" "K8"
-			(at 1450.34 255.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Link Negative"
-			(at 1450.34 257.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 1449.07 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 1446.53 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Relay, SPST Form A, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
-			(at 1450.34 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "13"
-			(uuid "26fcb50f-2453-4160-aac5-a8a9c7d93b69")
-		)
-		(pin "A2"
-			(uuid "ea1daf19-732f-4b13-a390-2a9c2a5b03c3")
-		)
-		(pin "A1"
-			(uuid "f12aa0aa-6d57-4679-a84a-0347c82313e8")
-		)
-		(pin "14"
-			(uuid "88d332f3-7360-4d93-9716-9e5e6a12179e")
-		)
-		(instances
-			(project "bms"
-				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
-					(reference "K8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Isolator:LTV-817S")
 		(at 105.41 378.46 0)
 		(mirror y)
@@ -62664,7 +61614,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 1150.62 180.34 0)
+		(at 406.4 524.51 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -62673,7 +61623,7 @@
 		(dnp no)
 		(uuid "68fe7c71-61f1-4041-af46-60a46a50936c")
 		(property "Reference" "F8"
-			(at 1152.144 179.07 0)
+			(at 407.924 523.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62682,7 +61632,7 @@
 			)
 		)
 		(property "Value" "Pyro Fuse"
-			(at 1152.144 182.118 0)
+			(at 407.924 526.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62691,7 +61641,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 1148.842 180.34 90)
+			(at 404.622 524.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62700,7 +61650,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 1150.62 180.34 0)
+			(at 406.4 524.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62709,7 +61659,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 1150.62 180.34 0)
+			(at 406.4 524.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64014,7 +62964,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 1150.62 171.45 0)
+		(at 406.4 515.62 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -64023,7 +62973,7 @@
 		(dnp no)
 		(uuid "6ecd9c49-548b-4026-8dc5-6b05fc8868e2")
 		(property "Reference" "R32"
-			(at 1145.794 168.148 0)
+			(at 401.574 512.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64032,7 +62982,7 @@
 			)
 		)
 		(property "Value" "25296nΩ"
-			(at 1152.398 169.164 0)
+			(at 408.178 513.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64041,7 +62991,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 1151.636 171.196 90)
+			(at 407.416 515.366 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64050,7 +63000,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 1150.62 171.45 0)
+			(at 406.4 515.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64059,7 +63009,7 @@
 			)
 		)
 		(property "Description" "Shunt"
-			(at 1155.446 171.704 0)
+			(at 411.226 515.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64702,7 +63652,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 1277.62 168.91 90)
+		(at 533.4 513.08 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -64711,7 +63661,7 @@
 		(dnp no)
 		(uuid "70ceb727-4a8e-405b-b48e-0a19dffe0408")
 		(property "Reference" "F9"
-			(at 1278.382 166.878 90)
+			(at 534.162 511.048 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64720,7 +63670,7 @@
 			)
 		)
 		(property "Value" "63A HV DC"
-			(at 1282.446 171.45 90)
+			(at 538.226 515.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64729,7 +63679,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 1277.62 167.132 90)
+			(at 533.4 511.302 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64738,7 +63688,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 1277.62 168.91 0)
+			(at 533.4 513.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64747,7 +63697,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 1277.62 168.91 0)
+			(at 533.4 513.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65241,82 +64191,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Relay:Fujitsu_FTR-LYAA005x")
-		(at 1393.19 269.24 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "75bbaed2-8009-4fed-9a8c-9b722b51d786")
-		(property "Reference" "K5"
-			(at 1393.19 255.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Link Positive"
-			(at 1393.19 257.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 1394.46 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 1397 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Relay, SPST Form A, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
-			(at 1393.19 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "13"
-			(uuid "24802803-79d3-4a4b-bb95-e8522f0bc9f9")
-		)
-		(pin "A2"
-			(uuid "27246b2b-ed88-4dbf-8d70-dbf3220ba454")
-		)
-		(pin "A1"
-			(uuid "197ea05f-ac7f-494d-8f94-aaf7748c46e8")
-		)
-		(pin "14"
-			(uuid "f73d303f-bc01-485b-a1f0-231397d447ae")
-		)
-		(instances
-			(project "bms"
-				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
-					(reference "K5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 355.6 394.97 0)
 		(unit 1)
@@ -65472,7 +64346,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery")
-		(at 1148.08 318.77 0)
+		(at 684.53 557.53 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -65481,7 +64355,7 @@
 		(dnp no)
 		(uuid "769c3dd8-6aa6-4591-bee6-b47a46a31674")
 		(property "Reference" "BT9"
-			(at 1145.286 317.5 0)
+			(at 681.736 556.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65490,7 +64364,7 @@
 			)
 		)
 		(property "Value" "~100V Brick"
-			(at 1145.286 320.04 0)
+			(at 681.736 558.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65499,7 +64373,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 1148.08 317.246 90)
+			(at 684.53 556.006 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65508,7 +64382,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 1148.08 317.246 90)
+			(at 684.53 556.006 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65517,7 +64391,7 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
-			(at 1148.08 318.77 0)
+			(at 684.53 557.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66873,7 +65747,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_PTC")
-		(at 1215.39 256.54 90)
+		(at 751.84 495.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -66881,7 +65755,7 @@
 		(dnp no)
 		(uuid "7c926f43-c5e6-4ff3-85a3-a677dd86cf02")
 		(property "Reference" "TH6"
-			(at 1215.644 251.46 90)
+			(at 752.094 490.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66889,7 +65763,7 @@
 			)
 		)
 		(property "Value" "B59451C1130B070"
-			(at 1215.898 253.492 90)
+			(at 752.348 492.252 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66897,7 +65771,7 @@
 			)
 		)
 		(property "Footprint" "BMS_Library:RV_Disc_D15.5mm_W7.5mm_P5.0mm"
-			(at 1220.47 255.27 0)
+			(at 756.92 494.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66907,7 +65781,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 1215.39 256.54 0)
+			(at 751.84 495.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66916,7 +65790,7 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, positive temperature coefficient"
-			(at 1215.39 256.54 0)
+			(at 751.84 495.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66925,7 +65799,7 @@
 			)
 		)
 		(property "Field5" "PTC 440V 56Ω"
-			(at 1215.39 253.492 90)
+			(at 751.84 492.252 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66934,7 +65808,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C2762811"
-			(at 1215.39 256.54 90)
+			(at 751.84 495.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69576,74 +68450,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 1414.78 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "89d49f42-e67f-432d-894e-29f6ae392673")
-		(property "Reference" "R164"
-			(at 1418.59 151.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "27R"
-			(at 1418.59 153.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 1415.796 152.654 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 1414.78 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pre-Charge"
-			(at 1421.638 155.956 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a7fc2981-ca86-433e-99e4-179ac0afc79b")
-		)
-		(pin "1"
-			(uuid "45dc2dfc-c1b4-4867-9bc2-88570cbde3ae")
-		)
-		(instances
-			(project ""
-				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
-					(reference "R164")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 477.52 360.68 90)
 		(unit 1)
@@ -70112,7 +68918,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_PTC")
-		(at 1234.44 246.38 90)
+		(at 770.89 485.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -70120,7 +68926,7 @@
 		(dnp no)
 		(uuid "8c94d3b0-31e7-482c-a9cb-05627b54ec03")
 		(property "Reference" "TH1"
-			(at 1234.694 241.3 90)
+			(at 771.144 480.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70128,7 +68934,7 @@
 			)
 		)
 		(property "Value" "B59451C1130B070"
-			(at 1234.948 243.332 90)
+			(at 771.398 482.092 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70136,7 +68942,7 @@
 			)
 		)
 		(property "Footprint" "BMS_Library:RV_Disc_D15.5mm_W7.5mm_P5.0mm"
-			(at 1239.52 245.11 0)
+			(at 775.97 483.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70146,7 +68952,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 1234.44 246.38 0)
+			(at 770.89 485.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70155,7 +68961,7 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, positive temperature coefficient"
-			(at 1234.44 246.38 0)
+			(at 770.89 485.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70164,7 +68970,7 @@
 			)
 		)
 		(property "Field5" "PTC 440V 56Ω"
-			(at 1234.44 243.332 90)
+			(at 770.89 482.092 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70173,7 +68979,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C2762811"
-			(at 1234.44 246.38 90)
+			(at 770.89 485.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70878,7 +69684,7 @@
 	)
 	(symbol
 		(lib_id "Relay:Fujitsu_FTR-LYAA005x")
-		(at 1226.82 165.1 90)
+		(at 482.6 509.27 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -70886,7 +69692,7 @@
 		(dnp no)
 		(uuid "900dd4d3-6c39-4065-93b5-a600b0fcf5a5")
 		(property "Reference" "K10"
-			(at 1225.55 151.13 90)
+			(at 481.33 495.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70895,7 +69701,7 @@
 			)
 		)
 		(property "Value" "FC Positive"
-			(at 1232.662 153.67 90)
+			(at 488.442 497.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70904,7 +69710,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 1228.09 153.67 0)
+			(at 483.87 497.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70914,7 +69720,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 1230.63 147.32 0)
+			(at 486.41 491.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70924,7 +69730,7 @@
 			)
 		)
 		(property "Description" "Relay, SPST Form A, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
-			(at 1226.82 165.1 0)
+			(at 482.6 509.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72006,83 +70812,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Relay:Fujitsu_FTR-LYAA005x")
-		(at 1402.08 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "961cc4cc-66f6-418b-9dfa-222caf7e3c09")
-		(property "Reference" "K1"
-			(at 1387.856 149.352 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FC Positive"
-			(at 1378.712 155.956 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 1413.51 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 1419.86 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Relay, SPST Form A, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
-			(at 1402.08 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "13"
-			(uuid "b018c2f4-454b-4ce9-bc03-1e3d94d23b1b")
-		)
-		(pin "A2"
-			(uuid "218df9c4-1a4c-4c77-a982-0704316b1ea7")
-		)
-		(pin "A1"
-			(uuid "cd4770c8-21d0-411c-b550-b75084b12e09")
-		)
-		(pin "14"
-			(uuid "edfaa6de-47e9-4196-baaf-d9873daec25c")
-		)
-		(instances
-			(project ""
-				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
-					(reference "K1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 556.26 160.02 270)
 		(unit 1)
@@ -72601,7 +71330,7 @@
 	(symbol
 		(lib_name "Fujitsu_FTR-LYAA005x_1")
 		(lib_id "Relay:Fujitsu_FTR-LYAA005x")
-		(at 1290.32 292.1 0)
+		(at 826.77 530.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -72609,7 +71338,7 @@
 		(dnp no)
 		(uuid "9c47c84c-2fed-41ef-b8bc-a1cbf5aaf370")
 		(property "Reference" "K18"
-			(at 1291.59 280.67 0)
+			(at 828.04 519.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72618,7 +71347,7 @@
 			)
 		)
 		(property "Value" "Inverter"
-			(at 1295.146 283.21 0)
+			(at 831.596 521.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72627,7 +71356,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 1301.75 293.37 0)
+			(at 838.2 532.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72637,7 +71366,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 1308.1 295.91 0)
+			(at 844.55 534.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72647,7 +71376,7 @@
 			)
 		)
 		(property "Description" "Relay, SPST Form A, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
-			(at 1290.828 315.214 0)
+			(at 827.278 553.974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73952,7 +72681,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_PTC")
-		(at 1215.39 236.22 90)
+		(at 751.84 474.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -73960,7 +72689,7 @@
 		(dnp no)
 		(uuid "a3cf60d9-7ef2-4a9b-949e-d05b00d7bc33")
 		(property "Reference" "TH4"
-			(at 1215.644 231.14 90)
+			(at 752.094 469.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73968,7 +72697,7 @@
 			)
 		)
 		(property "Value" "B59451C1130B070"
-			(at 1215.898 233.172 90)
+			(at 752.348 471.932 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73976,7 +72705,7 @@
 			)
 		)
 		(property "Footprint" "BMS_Library:RV_Disc_D15.5mm_W7.5mm_P5.0mm"
-			(at 1220.47 234.95 0)
+			(at 756.92 473.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73986,7 +72715,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 1215.39 236.22 0)
+			(at 751.84 474.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73995,7 +72724,7 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, positive temperature coefficient"
-			(at 1215.39 236.22 0)
+			(at 751.84 474.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74004,7 +72733,7 @@
 			)
 		)
 		(property "Field5" "PTC 440V 56Ω"
-			(at 1215.39 233.172 90)
+			(at 751.84 471.932 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74013,7 +72742,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C2762811"
-			(at 1215.39 236.22 90)
+			(at 751.84 474.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74581,7 +73310,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_PTC")
-		(at 1234.44 236.22 90)
+		(at 770.89 474.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -74589,7 +73318,7 @@
 		(dnp no)
 		(uuid "a6077b99-6bfa-40ea-909f-2c5598264ea3")
 		(property "Reference" "TH3"
-			(at 1234.694 231.14 90)
+			(at 771.144 469.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74597,7 +73326,7 @@
 			)
 		)
 		(property "Value" "B59451C1130B070"
-			(at 1234.948 233.172 90)
+			(at 771.398 471.932 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74605,7 +73334,7 @@
 			)
 		)
 		(property "Footprint" "BMS_Library:RV_Disc_D15.5mm_W7.5mm_P5.0mm"
-			(at 1239.52 234.95 0)
+			(at 775.97 473.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74615,7 +73344,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 1234.44 236.22 0)
+			(at 770.89 474.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74624,7 +73353,7 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, positive temperature coefficient"
-			(at 1234.44 236.22 0)
+			(at 770.89 474.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74633,7 +73362,7 @@
 			)
 		)
 		(property "Field5" "PTC 440V 56Ω"
-			(at 1234.44 233.172 90)
+			(at 770.89 471.932 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74642,7 +73371,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C2762811"
-			(at 1234.44 236.22 90)
+			(at 770.89 474.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -77461,76 +76190,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse")
-		(at 1407.16 173.99 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b1b42514-18b7-42c8-bb41-5db02b321694")
-		(property "Reference" "F3"
-			(at 1404.874 172.974 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Pyro Fuse"
-			(at 1405.128 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 1408.938 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 1407.16 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 1407.16 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1eb735b9-0181-48c3-b2dd-76dac2593aa8")
-		)
-		(pin "2"
-			(uuid "89c6c720-6742-4612-984e-02b2a30961a7")
-		)
-		(instances
-			(project ""
-				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
-					(reference "F3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint_2Pole")
 		(at 713.74 204.47 180)
 		(unit 1)
@@ -78968,84 +77627,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Relay:Fujitsu_FTR-LYAA005x")
-		(at 1440.18 152.4 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b707f55d-cb9f-4037-8bf7-cccea7c0b896")
-		(property "Reference" "K2"
-			(at 1456.69 150.622 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FC Negative"
-			(at 1462.532 155.448 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 1428.75 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 1422.4 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Relay, SPST Form A, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
-			(at 1440.18 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "13"
-			(uuid "4873cf09-feab-4f7f-8006-11f6b0791b0c")
-		)
-		(pin "A2"
-			(uuid "9ad9a8de-de7c-4119-bdef-b4d7e2925cb8")
-		)
-		(pin "A1"
-			(uuid "7554bd7a-dd4b-4914-98aa-ba49bbcfac82")
-		)
-		(pin "14"
-			(uuid "c1118b4d-d846-4a41-aa79-29a96f986d4e")
-		)
-		(instances
-			(project "bms"
-				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
-					(reference "K2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 676.91 86.36 180)
 		(unit 1)
@@ -80141,7 +78722,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Shunt")
-		(at 1148.08 290.83 0)
+		(at 684.53 529.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -80149,7 +78730,7 @@
 		(dnp no)
 		(uuid "bdbd1611-62c4-4548-80d7-7b5ab4470b61")
 		(property "Reference" "R178"
-			(at 1156.97 289.56 0)
+			(at 693.42 528.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -80158,7 +78739,7 @@
 			)
 		)
 		(property "Value" "25296nΩ"
-			(at 1160.526 291.592 0)
+			(at 696.976 530.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -80167,7 +78748,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 1146.302 290.83 90)
+			(at 682.752 529.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -80176,7 +78757,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 1148.08 290.83 0)
+			(at 684.53 529.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -80185,7 +78766,7 @@
 			)
 		)
 		(property "Description" "Shunt resistor with Kelvin connections"
-			(at 1148.08 290.83 0)
+			(at 684.53 529.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -80358,7 +78939,7 @@
 	)
 	(symbol
 		(lib_id "Relay:Fujitsu_FTR-LYAA005x")
-		(at 1226.82 201.93 90)
+		(at 482.6 546.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -80366,7 +78947,7 @@
 		(dnp no)
 		(uuid "bf880e4e-3365-4ed4-8387-725d54e7b1d4")
 		(property "Reference" "K11"
-			(at 1225.296 187.96 90)
+			(at 481.076 532.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -80375,7 +78956,7 @@
 			)
 		)
 		(property "Value" "FC Negative"
-			(at 1233.17 190.246 90)
+			(at 488.95 534.416 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -80384,7 +78965,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 1228.09 190.5 0)
+			(at 483.87 534.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -80394,7 +78975,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 1230.63 184.15 0)
+			(at 486.41 528.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -80404,7 +78985,7 @@
 			)
 		)
 		(property "Description" "Relay, SPST Form A, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
-			(at 1226.82 201.93 0)
+			(at 482.6 546.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -80900,83 +79481,6 @@
 			(project "bms"
 				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
 					(reference "R134")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:Fujitsu_FTR-LYAA005x")
-		(at 1402.08 228.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c3f3072f-21ed-4f23-b1c4-821b5e338fb1")
-		(property "Reference" "K6"
-			(at 1387.856 225.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FC Positive"
-			(at 1379.728 231.902 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 1413.51 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 1419.86 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Relay, SPST Form A, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
-			(at 1402.08 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "13"
-			(uuid "98beee3b-4b1d-4dbf-b7d1-25466fc5043c")
-		)
-		(pin "A2"
-			(uuid "a839274a-79d0-4041-a23f-b8fad3f53a0d")
-		)
-		(pin "A1"
-			(uuid "18e19002-150f-49d7-97f5-14f11a5b32de")
-		)
-		(pin "14"
-			(uuid "7702a9e6-327f-458b-836c-b1d31bcee887")
-		)
-		(instances
-			(project "bms"
-				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
-					(reference "K6")
 					(unit 1)
 				)
 			)
@@ -81528,82 +80032,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Relay:Fujitsu_FTR-LYAA005x")
-		(at 1393.19 193.04 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c83b941a-76f7-4ed1-9fb6-c491255ee9f8")
-		(property "Reference" "K4"
-			(at 1393.19 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Link Positive"
-			(at 1393.19 181.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 1394.46 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 1397 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Relay, SPST Form A, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
-			(at 1393.19 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "13"
-			(uuid "c57d7a19-3b22-4d8e-909d-d1cf5f30388e")
-		)
-		(pin "A2"
-			(uuid "1f8e9904-4837-4b40-a01d-777f588de97c")
-		)
-		(pin "A1"
-			(uuid "416adc38-bd36-46b3-a29d-e99fffef614e")
-		)
-		(pin "14"
-			(uuid "1a4cbe96-57fe-48f0-aa9e-7057d88ab496")
-		)
-		(instances
-			(project "bms"
-				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
-					(reference "K4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 99.06 317.5 0)
 		(mirror x)
@@ -81692,7 +80120,7 @@
 	)
 	(symbol
 		(lib_id "Relay:Fujitsu_FTR-LYAA005x")
-		(at 1225.55 323.85 90)
+		(at 762 562.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -81700,7 +80128,7 @@
 		(dnp no)
 		(uuid "ca6d82fb-b6bc-4b38-bc7c-6a82227e8be1")
 		(property "Reference" "K17"
-			(at 1224.026 309.88 90)
+			(at 760.476 548.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -81709,7 +80137,7 @@
 			)
 		)
 		(property "Value" "FC Negative"
-			(at 1231.9 312.166 90)
+			(at 768.35 550.926 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -81718,7 +80146,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 1226.82 312.42 0)
+			(at 763.27 551.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -81728,7 +80156,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 1229.36 306.07 0)
+			(at 765.81 544.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -81738,7 +80166,7 @@
 			)
 		)
 		(property "Description" "Relay, SPST Form A, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
-			(at 1225.55 323.85 0)
+			(at 762 562.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -84199,7 +82627,7 @@
 	)
 	(symbol
 		(lib_id "Relay:Fujitsu_FTR-LYAA005x")
-		(at 1179.83 165.1 90)
+		(at 435.61 509.27 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -84207,7 +82635,7 @@
 		(dnp no)
 		(uuid "d903db18-8e59-43d3-ac8e-c256ca031030")
 		(property "Reference" "K9"
-			(at 1176.02 151.13 90)
+			(at 431.8 495.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -84215,7 +82643,7 @@
 			)
 		)
 		(property "Value" "Link Positive"
-			(at 1180.846 153.416 90)
+			(at 436.626 497.586 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -84223,7 +82651,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 1181.1 153.67 0)
+			(at 436.88 497.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -84233,7 +82661,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 1183.64 147.32 0)
+			(at 439.42 491.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -84243,7 +82671,7 @@
 			)
 		)
 		(property "Description" "Relay, SPST Form A, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
-			(at 1179.83 165.1 0)
+			(at 435.61 509.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -84586,7 +83014,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery")
-		(at 1150.62 162.56 0)
+		(at 406.4 506.73 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -84595,7 +83023,7 @@
 		(dnp no)
 		(uuid "dc4b3d33-6c99-432d-8b07-c7680e41bc71")
 		(property "Reference" "BT1"
-			(at 1147.572 161.29 0)
+			(at 403.352 505.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -84604,7 +83032,7 @@
 			)
 		)
 		(property "Value" "~100V Brick"
-			(at 1147.572 163.83 0)
+			(at 403.352 508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -84613,7 +83041,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 1150.62 161.036 90)
+			(at 406.4 505.206 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -84622,7 +83050,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 1150.62 161.036 90)
+			(at 406.4 505.206 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -84631,7 +83059,7 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
-			(at 1150.62 162.56 0)
+			(at 406.4 506.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -85196,7 +83624,7 @@
 	)
 	(symbol
 		(lib_id "Relay:Fujitsu_FTR-LYAA005x")
-		(at 1178.56 321.31 90)
+		(at 715.01 560.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -85204,7 +83632,7 @@
 		(dnp no)
 		(uuid "e2100db2-0d77-4597-9490-97422c930db3")
 		(property "Reference" "K15"
-			(at 1175.004 307.34 90)
+			(at 711.454 546.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -85212,7 +83640,7 @@
 			)
 		)
 		(property "Value" "Link Negative"
-			(at 1179.83 309.626 90)
+			(at 716.28 548.386 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -85220,7 +83648,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 1179.83 309.88 0)
+			(at 716.28 548.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -85230,7 +83658,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 1182.37 303.53 0)
+			(at 718.82 542.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -85240,7 +83668,7 @@
 			)
 		)
 		(property "Description" "Relay, SPST Form A, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
-			(at 1178.56 321.31 0)
+			(at 715.01 560.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -85271,7 +83699,7 @@
 	)
 	(symbol
 		(lib_id "Relay:Fujitsu_FTR-LYAA005x")
-		(at 1178.56 271.78 90)
+		(at 715.01 510.54 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -85279,7 +83707,7 @@
 		(dnp no)
 		(uuid "e2a6ef4d-5ec9-40a5-967a-059aeb73401c")
 		(property "Reference" "K14"
-			(at 1174.75 257.81 90)
+			(at 711.2 496.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -85287,7 +83715,7 @@
 			)
 		)
 		(property "Value" "Link Positive"
-			(at 1179.576 260.096 90)
+			(at 716.026 498.856 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -85295,7 +83723,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 1179.83 260.35 0)
+			(at 716.28 499.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -85305,7 +83733,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 1182.37 254 0)
+			(at 718.82 492.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -85315,7 +83743,7 @@
 			)
 		)
 		(property "Description" "Relay, SPST Form A, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
-			(at 1178.56 271.78 0)
+			(at 715.01 510.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -85511,7 +83939,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery")
-		(at 1150.62 152.4 0)
+		(at 406.4 496.57 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -85520,7 +83948,7 @@
 		(dnp no)
 		(uuid "e41e6cd7-da28-494f-9e3c-f1bf2cd05e3a")
 		(property "Reference" "BT5"
-			(at 1147.572 151.13 0)
+			(at 403.352 495.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -85529,7 +83957,7 @@
 			)
 		)
 		(property "Value" "~100V Brick"
-			(at 1147.572 153.67 0)
+			(at 403.352 497.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -85538,7 +83966,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 1150.62 150.876 90)
+			(at 406.4 495.046 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -85547,7 +83975,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 1150.62 150.876 90)
+			(at 406.4 495.046 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -85556,7 +83984,7 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
-			(at 1150.62 152.4 0)
+			(at 406.4 496.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -87282,7 +85710,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_PTC")
-		(at 1234.44 256.54 90)
+		(at 770.89 495.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -87290,7 +85718,7 @@
 		(dnp no)
 		(uuid "ef966015-8866-4037-b22d-cdb8ed163576")
 		(property "Reference" "TH2"
-			(at 1234.694 251.46 90)
+			(at 771.144 490.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -87298,7 +85726,7 @@
 			)
 		)
 		(property "Value" "B59451C1130B070"
-			(at 1234.948 253.492 90)
+			(at 771.398 492.252 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -87306,7 +85734,7 @@
 			)
 		)
 		(property "Footprint" "BMS_Library:RV_Disc_D15.5mm_W7.5mm_P5.0mm"
-			(at 1239.52 255.27 0)
+			(at 775.97 494.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -87316,7 +85744,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 1234.44 256.54 0)
+			(at 770.89 495.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -87325,7 +85753,7 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, positive temperature coefficient"
-			(at 1234.44 256.54 0)
+			(at 770.89 495.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -87334,7 +85762,7 @@
 			)
 		)
 		(property "Field5" "PTC 440V 56Ω"
-			(at 1234.44 253.492 90)
+			(at 770.89 492.252 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -87343,7 +85771,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C2762811"
-			(at 1234.44 256.54 90)
+			(at 770.89 495.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -87749,7 +86177,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_PTC")
-		(at 1215.39 246.38 90)
+		(at 751.84 485.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -87757,7 +86185,7 @@
 		(dnp no)
 		(uuid "f0c2e1d6-5ead-4f18-a2d5-d4b0ba9fc217")
 		(property "Reference" "TH5"
-			(at 1215.644 241.3 90)
+			(at 752.094 480.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -87765,7 +86193,7 @@
 			)
 		)
 		(property "Value" "B59451C1130B070"
-			(at 1215.898 243.332 90)
+			(at 752.348 482.092 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -87773,7 +86201,7 @@
 			)
 		)
 		(property "Footprint" "BMS_Library:RV_Disc_D15.5mm_W7.5mm_P5.0mm"
-			(at 1220.47 245.11 0)
+			(at 756.92 483.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -87783,7 +86211,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 1215.39 246.38 0)
+			(at 751.84 485.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -87792,7 +86220,7 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, positive temperature coefficient"
-			(at 1215.39 246.38 0)
+			(at 751.84 485.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -87801,7 +86229,7 @@
 			)
 		)
 		(property "Field5" "PTC 440V 56Ω"
-			(at 1215.39 243.332 90)
+			(at 751.84 482.092 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -87810,7 +86238,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C2762811"
-			(at 1215.39 246.38 90)
+			(at 751.84 485.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88110,7 +86538,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery")
-		(at 1148.08 270.51 0)
+		(at 684.53 509.27 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -88119,7 +86547,7 @@
 		(dnp no)
 		(uuid "f2a74dd0-2264-4a42-b09a-dc79cb73d4df")
 		(property "Reference" "BT6"
-			(at 1145.032 269.24 0)
+			(at 681.482 508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88128,7 +86556,7 @@
 			)
 		)
 		(property "Value" "~100V Brick"
-			(at 1145.032 271.78 0)
+			(at 681.482 510.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88137,7 +86565,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 1148.08 268.986 90)
+			(at 684.53 507.746 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88146,7 +86574,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 1148.08 268.986 90)
+			(at 684.53 507.746 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88155,7 +86583,7 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
-			(at 1148.08 270.51 0)
+			(at 684.53 509.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88180,7 +86608,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 1226.82 302.26 90)
+		(at 763.27 541.02 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -88189,7 +86617,7 @@
 		(dnp no)
 		(uuid "f3653923-5268-4c2f-833a-02eb3ed33c2a")
 		(property "Reference" "F11"
-			(at 1227.582 300.228 90)
+			(at 764.032 538.988 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88198,7 +86626,7 @@
 			)
 		)
 		(property "Value" "63A HV DC"
-			(at 1231.646 304.8 90)
+			(at 768.096 543.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88207,7 +86635,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 1226.82 300.482 90)
+			(at 763.27 539.242 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88216,7 +86644,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 1226.82 302.26 0)
+			(at 763.27 541.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88225,7 +86653,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 1226.82 302.26 0)
+			(at 763.27 541.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88553,7 +86981,7 @@
 	)
 	(symbol
 		(lib_id "Relay:Fujitsu_FTR-LYAA005x")
-		(at 1179.83 201.93 90)
+		(at 435.61 546.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -88561,7 +86989,7 @@
 		(dnp no)
 		(uuid "f55b6abc-4159-45ff-9f70-de3f4b000d36")
 		(property "Reference" "K12"
-			(at 1176.274 187.96 90)
+			(at 432.054 532.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88569,7 +86997,7 @@
 			)
 		)
 		(property "Value" "Link Negative"
-			(at 1181.1 190.246 90)
+			(at 436.88 534.416 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88577,7 +87005,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 1181.1 190.5 0)
+			(at 436.88 534.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88587,7 +87015,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 1183.64 184.15 0)
+			(at 439.42 528.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88597,7 +87025,7 @@
 			)
 		)
 		(property "Description" "Relay, SPST Form A, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
-			(at 1179.83 201.93 0)
+			(at 435.61 546.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88953,7 +87381,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 1148.08 299.72 0)
+		(at 684.53 538.48 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -88962,7 +87390,7 @@
 		(dnp no)
 		(uuid "f62a4640-1fdc-4eb4-9247-14d281def80c")
 		(property "Reference" "F1"
-			(at 1149.604 298.45 0)
+			(at 686.054 537.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88971,7 +87399,7 @@
 			)
 		)
 		(property "Value" "Pyro Fuse"
-			(at 1149.604 300.736 0)
+			(at 686.054 539.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88980,7 +87408,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 1146.302 299.72 90)
+			(at 682.752 538.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88989,7 +87417,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 1148.08 299.72 0)
+			(at 684.53 538.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88998,7 +87426,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 1148.08 299.72 0)
+			(at 684.53 538.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -89024,7 +87452,7 @@
 	(symbol
 		(lib_name "Fujitsu_FTR-LYAA005x_1")
 		(lib_id "Relay:Fujitsu_FTR-LYAA005x")
-		(at 1291.59 173.99 0)
+		(at 547.37 518.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -89032,7 +87460,7 @@
 		(dnp no)
 		(uuid "f69b9507-6496-4f4e-b02c-463897da0b74")
 		(property "Reference" "K13"
-			(at 1292.86 162.56 0)
+			(at 548.64 506.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -89041,7 +87469,7 @@
 			)
 		)
 		(property "Value" "Inverter"
-			(at 1296.416 165.1 0)
+			(at 552.196 509.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -89050,7 +87478,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 1303.02 175.26 0)
+			(at 558.8 519.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -89060,7 +87488,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 1309.37 177.8 0)
+			(at 565.15 521.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -89070,7 +87498,7 @@
 			)
 		)
 		(property "Description" "Relay, SPST Form A, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
-			(at 1292.098 197.104 0)
+			(at 547.878 541.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -89101,7 +87529,7 @@
 	)
 	(symbol
 		(lib_id "Relay:Fujitsu_FTR-LYAA005x")
-		(at 1226.82 274.32 90)
+		(at 763.27 513.08 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -89109,7 +87537,7 @@
 		(dnp no)
 		(uuid "f724bdaa-9ebe-4f17-85a6-f50364d699ee")
 		(property "Reference" "K16"
-			(at 1225.55 260.35 90)
+			(at 762 499.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -89118,7 +87546,7 @@
 			)
 		)
 		(property "Value" "FC Positive"
-			(at 1232.662 262.89 90)
+			(at 769.112 501.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -89127,7 +87555,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 1228.09 262.89 0)
+			(at 764.54 501.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -89137,7 +87565,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 1230.63 256.54 0)
+			(at 767.08 495.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -89147,7 +87575,7 @@
 			)
 		)
 		(property "Description" "Relay, SPST Form A, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
-			(at 1226.82 274.32 0)
+			(at 763.27 513.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -89712,75 +88140,6 @@
 			(project "bms"
 				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
 					(reference "R60")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 1372.87 238.76 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fb311712-97a2-4a2b-b041-a126deb9b9ca")
-		(property "Reference" "R165"
-			(at 1369.06 237.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "27R"
-			(at 1369.06 240.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 1371.854 239.014 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 1372.87 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pre-Charge"
-			(at 1366.012 242.316 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "20fa70fa-0b8e-4dbe-baa4-86e984166551")
-		)
-		(pin "1"
-			(uuid "4a57abd2-cad1-4629-ba07-db9cd86eac88")
-		)
-		(instances
-			(project "bms"
-				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
-					(reference "R165")
 					(unit 1)
 				)
 			)
@@ -90783,84 +89142,6 @@
 			(project "bms"
 				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
 					(reference "R102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:Fujitsu_FTR-LYAA005x")
-		(at 1440.18 228.6 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ff2d1f78-70c3-48c9-b766-5effdac2c925")
-		(property "Reference" "K7"
-			(at 1456.69 226.822 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FC Negative"
-			(at 1462.532 231.648 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 1428.75 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 1422.4 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Relay, SPST Form A, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
-			(at 1440.18 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "13"
-			(uuid "0bfdbe98-49a0-455d-8e2f-ce8d1f408350")
-		)
-		(pin "A2"
-			(uuid "ffd2e8b7-3cbc-4afa-89cc-d5da4d7a7dd3")
-		)
-		(pin "A1"
-			(uuid "af0d2377-94ba-48c7-b499-7b519681c58c")
-		)
-		(pin "14"
-			(uuid "fe6e8eaa-f610-4e63-ae9d-24ea9562b598")
-		)
-		(instances
-			(project "bms"
-				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
-					(reference "K7")
 					(unit 1)
 				)
 			)
