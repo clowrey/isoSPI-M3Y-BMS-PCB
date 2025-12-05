@@ -23785,12 +23785,6 @@
 		(uuid "5dd0fdbe-5e47-42a0-8541-3187abad720b")
 	)
 	(junction
-		(at 394.97 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5f0fcb81-9059-4c1d-811a-6a34c50ac1e4")
-	)
-	(junction
 		(at 201.93 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -29638,7 +29632,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 87.63) (xy 394.97 88.9)
+			(xy 394.97 80.01) (xy 394.97 88.9)
 		)
 		(stroke
 			(width 0)
@@ -30958,16 +30952,6 @@
 	)
 	(wire
 		(pts
-			(xy 407.67 96.52) (xy 407.67 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a763fab-39a9-470c-801c-ebe9e3d6ff8e")
-	)
-	(wire
-		(pts
 			(xy 621.03 68.58) (xy 621.03 69.85)
 		)
 		(stroke
@@ -32085,16 +32069,6 @@
 			(type default)
 		)
 		(uuid "6f9acf91-7cf4-413d-ba50-539c9ca92d60")
-	)
-	(wire
-		(pts
-			(xy 407.67 87.63) (xy 394.97 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fc15403-23f9-4366-989f-ee0a4686ce12")
 	)
 	(wire
 		(pts
@@ -43906,6 +43880,28 @@
 			)
 		)
 	)
+	(global_label "FC-CTR-POS-AUX"
+		(shape output)
+		(at 419.1 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "253d5619-6483-4a15-a0df-5eae70830892")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 440.1072 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Snooper Debug"
 		(shape input)
 		(at 483.87 209.55 180)
@@ -45072,28 +45068,6 @@
 			)
 		)
 	)
-	(global_label "FC-CTR-POS-AUX"
-		(shape output)
-		(at 419.1 152.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "767a3268-a998-4986-aa9c-612c69c4e38b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 440.1072 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "I2C SCL Vsense"
 		(shape bidirectional)
 		(at 298.45 382.27 180)
@@ -45129,6 +45103,28 @@
 		(uuid "77293888-4a09-4fb5-ba83-8546eeb5ef15")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 434.3617 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FC-CTR-NEG-AUX"
+		(shape output)
+		(at 419.1 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "779b2271-9ae6-480b-901c-3a03e254ff8c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 440.0467 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46762,28 +46758,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "FC-CTR-NEG-AUX"
-		(shape output)
-		(at 419.1 149.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fe66dee8-4f3d-4fbd-ad2a-183c1783a3da")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 440.0467 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -64124,84 +64098,6 @@
 			(project "bms"
 				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
 					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 394.97 83.82 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5f058f98-653f-4803-af1d-30e4b7222025")
-		(property "Reference" "R58"
-			(at 400.558 82.804 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "33r"
-			(at 400.558 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 396.748 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 394.97 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0402WGF330JTCE"
-			(at 394.97 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C25105"
-			(at 394.97 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "32d53b98-7bc6-4349-bcd9-d407ec4fba14")
-		)
-		(pin "2"
-			(uuid "ff350937-ae8c-43c2-bf05-b58ce95197f5")
-		)
-		(instances
-			(project "bms"
-				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
-					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -90594,70 +90490,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 407.67 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eb7eedaa-9fe9-41c6-b91c-782f7f9b3809")
-		(property "Reference" "#PWR040"
-			(at 407.67 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 411.48 98.298 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 407.67 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 407.67 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 407.67 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ca9087cb-6a3d-428e-a9b0-1713f261854c")
-		)
-		(instances
-			(project "bms"
-				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 734.06 57.15 0)
 		(unit 1)
@@ -90970,92 +90802,6 @@
 			(project "bms"
 				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
 					(reference "C46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 407.67 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ee311b15-2016-4c7e-83a2-5b1bee8661a5")
-		(property "Reference" "C69"
-			(at 408.686 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7u"
-			(at 410.464 91.186 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 408.6352 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 407.67 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CL05A475MP5NRNC"
-			(at 407.67 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C23733"
-			(at 407.67 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "10V X5R"
-			(at 412.496 93.472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "52d83413-876f-42ad-b79c-176299a02c52")
-		)
-		(pin "2"
-			(uuid "770c4443-2747-4e2a-9a51-6e02a07343f1")
-		)
-		(instances
-			(project "isoSPI-M3Y-BMS-PCB"
-				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
-					(reference "C69")
 					(unit 1)
 				)
 			)
