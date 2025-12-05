@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -133,11 +133,11 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
+        "min_text_height": 0.4,
+        "min_text_thickness": 0.001,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.14,
-        "min_via_annular_width": 0.2,
+        "min_via_annular_width": 0.15,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
@@ -629,14 +629,6 @@
       {
         "netclass": "Power_Logic_Small",
         "pattern": "+3.3V"
-      },
-      {
-        "netclass": "I2C",
-        "pattern": "I2C*"
-      },
-      {
-        "netclass": "I2C",
-        "pattern": "CAN*"
       }
     ]
   },
