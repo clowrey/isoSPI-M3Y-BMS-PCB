@@ -1,0 +1,180 @@
+(footprint "H0505S-1WR2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "4.5V~5.5V 5V 6kV 6mA 87% 9.8mm Short Circuit Protection SIP-4 Isolated Power Modules ROHS")
+	(tags "DCDC-Converter H0505S-1WR2")
+	(property "Reference" "REF**"
+		(at -2.1 -3.35 0)
+		(layer "F.SilkS")
+		(uuid "71fd4056-90b1-48fb-82bf-164bb220d2cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "H0505S-1WR2"
+		(at -2.1 18.4 0)
+		(layer "F.Fab")
+		(uuid "a173927e-377d-4935-bde8-b3a5c1ce050a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bfdf4ae2-405e-48c5-a904-c9cff1cf2ff3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d31018c4-c546-43db-984f-27bd532930e7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB Part #" "C7598645"
+		(at -2.1 20 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b0ab88dc-8157-4f13-9ba6-4fad3e2e46fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Field5" "1W 6kV"
+		(at -1.6 12.9 0)
+		(layer "F.Fab")
+		(uuid "a33a5ccb-e6a8-4bb5-bac7-7353fc673788")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -7 -2.1)
+		(end 2.8 17.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a92008b6-8c9b-458f-b642-6e84f06a9ab2")
+	)
+	(fp_poly
+		(pts
+			(xy -7.23 -0.04) (xy -7.7 0.3) (xy -7.7 -0.38)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "d346f815-6c35-4c9d-ac6b-5a1cb96ea7d1")
+	)
+	(fp_rect
+		(start -7.15 -2.25)
+		(end 2.95 17.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9ed37410-ce62-43d9-b0e4-edddf76e093c")
+	)
+	(fp_poly
+		(pts
+			(xy -7 -0.8) (xy -7 17.4) (xy 2.8 17.4) (xy 2.8 -2.1) (xy -5.7 -2.1)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2d60c8db-1fc2-4486-9038-422834ff6c7c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -2.1 7.35 0)
+		(layer "F.Fab")
+		(uuid "29ee8992-78f9-46a2-8b7b-ee2834f3c9e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.166667)
+		(uuid "3e9ff4ed-e5e4-4c41-ace1-6675d0629a59")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2.54)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6309dde1-8a28-40de-92b9-12be1e93e4df")
+	)
+	(pad "5" thru_hole circle
+		(at 0 10.16)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7fad185f-c3e7-428d-a107-1baaf73f5a77")
+	)
+	(pad "7" thru_hole circle
+		(at 0 15.24)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a1482e6d-2a41-4707-bf83-731876602427")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_TRACO_TEA1-xxxxHI_THT.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

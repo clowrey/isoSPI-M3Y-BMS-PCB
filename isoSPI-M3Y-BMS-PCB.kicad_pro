@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.22
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -193,7 +193,8 @@
         0.4,
         0.6,
         2.0,
-        2.4
+        2.4,
+        3.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -494,12 +495,22 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.3,
+        "name": "I2C",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.15,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
         "bus_width": 12,
         "clearance": 0.15,
         "line_style": 0,
         "name": "Power_Logic",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.2,
         "via_diameter": 1.2,
@@ -510,7 +521,7 @@
         "clearance": 0.15,
         "name": "Power_Logic_Small",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.22,
         "via_diameter": 0.6,
@@ -522,7 +533,7 @@
         "line_style": 0,
         "name": "Power_contactor",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 2.4,
         "via_diameter": 1.2,
@@ -537,7 +548,7 @@
         "line_style": 0,
         "name": "contactor",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 2.4,
         "via_diameter": 0.6,
@@ -613,6 +624,14 @@
       {
         "netclass": "Power_Logic_Small",
         "pattern": "+3.3V"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "I2C*"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "CAN*"
       }
     ]
   },
