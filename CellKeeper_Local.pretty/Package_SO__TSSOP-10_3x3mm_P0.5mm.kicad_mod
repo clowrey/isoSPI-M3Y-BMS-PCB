@@ -1,0 +1,306 @@
+(footprint "Package_SO__TSSOP-10_3x3mm_P0.5mm"
+	(version 20260206)
+	(generator "sync_footprints_from_board")
+	(layer "F.Cu")
+	(descr "TSSOP, 10 Pin (https://www.ti.com/lit/ml/mpds035c/mpds035c.pdf, https://www.ti.com/lit/ds/symlink/ads1115.pdf#page=50, https://www.nxp.com/docs/en/package-information/SOT552-1.pdf)")
+	(tags "TSSOP SO Texas_DGS0010A Texas_VSSOP-10 NXP_SOT552-1 MSOP-10_3x3mm_P0.5mm VSSOP-10_3x3mm_P0.5mm")
+	(property "Reference" "REF**"
+				(at 0 -2.55 0)
+				(layer "F.SilkS")
+				(effects
+					(font
+						(size 1 1)
+						(thickness 0.15)
+					)
+				)
+			)
+	(property "Value" "Package_SO__TSSOP-10_3x3mm_P0.5mm"
+				(at 0 2.55 0)
+				(layer "F.Fab")
+				(effects
+					(font
+						(size 1 1)
+						(thickness 0.15)
+					)
+				)
+			)
+	(property "KiLib_Generator" "package/gullwing"
+				(at 0 0 0)
+				(layer "F.SilkS")
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+						(thickness 0.15)
+					)
+				)
+			)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+				(start -1.61 -1.61)
+				(end 1.61 -1.61)
+				(stroke
+					(width 0.12)
+					(type solid)
+				)
+				(layer "F.SilkS")
+			)
+	(fp_line
+				(start -1.61 -1.41)
+				(end -1.61 -1.61)
+				(stroke
+					(width 0.12)
+					(type solid)
+				)
+				(layer "F.SilkS")
+			)
+	(fp_line
+				(start -1.61 1.61)
+				(end -1.61 1.41)
+				(stroke
+					(width 0.12)
+					(type solid)
+				)
+				(layer "F.SilkS")
+			)
+	(fp_line
+				(start 1.61 -1.61)
+				(end 1.61 -1.41)
+				(stroke
+					(width 0.12)
+					(type solid)
+				)
+				(layer "F.SilkS")
+			)
+	(fp_line
+				(start 1.61 1.41)
+				(end 1.61 1.61)
+				(stroke
+					(width 0.12)
+					(type solid)
+				)
+				(layer "F.SilkS")
+			)
+	(fp_line
+				(start 1.61 1.61)
+				(end -1.61 1.61)
+				(stroke
+					(width 0.12)
+					(type solid)
+				)
+				(layer "F.SilkS")
+			)
+	(fp_poly
+				(pts
+					(xy -2.16 -1.41) (xy -2.4 -1.74) (xy -1.92 -1.74)
+				)
+				(stroke
+					(width 0.12)
+					(type solid)
+				)
+				(fill yes)
+				(layer "F.SilkS")
+			)
+	(fp_line
+				(start -3.13 -1.4)
+				(end -1.75 -1.4)
+				(stroke
+					(width 0.05)
+					(type solid)
+				)
+				(layer "F.CrtYd")
+			)
+	(fp_line
+				(start -3.13 1.4)
+				(end -3.13 -1.4)
+				(stroke
+					(width 0.05)
+					(type solid)
+				)
+				(layer "F.CrtYd")
+			)
+	(fp_line
+				(start -1.75 -1.75)
+				(end 1.75 -1.75)
+				(stroke
+					(width 0.05)
+					(type solid)
+				)
+				(layer "F.CrtYd")
+			)
+	(fp_line
+				(start -1.75 -1.4)
+				(end -1.75 -1.75)
+				(stroke
+					(width 0.05)
+					(type solid)
+				)
+				(layer "F.CrtYd")
+			)
+	(fp_line
+				(start -1.75 1.4)
+				(end -3.13 1.4)
+				(stroke
+					(width 0.05)
+					(type solid)
+				)
+				(layer "F.CrtYd")
+			)
+	(fp_line
+				(start -1.75 1.75)
+				(end -1.75 1.4)
+				(stroke
+					(width 0.05)
+					(type solid)
+				)
+				(layer "F.CrtYd")
+			)
+	(fp_line
+				(start 1.75 -1.75)
+				(end 1.75 -1.4)
+				(stroke
+					(width 0.05)
+					(type solid)
+				)
+				(layer "F.CrtYd")
+			)
+	(fp_line
+				(start 1.75 -1.4)
+				(end 3.13 -1.4)
+				(stroke
+					(width 0.05)
+					(type solid)
+				)
+				(layer "F.CrtYd")
+			)
+	(fp_line
+				(start 1.75 1.4)
+				(end 1.75 1.75)
+				(stroke
+					(width 0.05)
+					(type solid)
+				)
+				(layer "F.CrtYd")
+			)
+	(fp_line
+				(start 1.75 1.75)
+				(end -1.75 1.75)
+				(stroke
+					(width 0.05)
+					(type solid)
+				)
+				(layer "F.CrtYd")
+			)
+	(fp_line
+				(start 3.13 -1.4)
+				(end 3.13 1.4)
+				(stroke
+					(width 0.05)
+					(type solid)
+				)
+				(layer "F.CrtYd")
+			)
+	(fp_line
+				(start 3.13 1.4)
+				(end 1.75 1.4)
+				(stroke
+					(width 0.05)
+					(type solid)
+				)
+				(layer "F.CrtYd")
+			)
+	(fp_poly
+				(pts
+					(xy -0.75 -1.5) (xy 1.5 -1.5) (xy 1.5 1.5) (xy -1.5 1.5) (xy -1.5 -0.75)
+				)
+				(stroke
+					(width 0.1)
+					(type solid)
+				)
+				(fill no)
+				(layer "F.Fab")
+			)
+	(fp_text user "${REFERENCE}"
+				(at 0 0 0)
+				(layer "F.Fab")
+				(effects
+					(font
+						(size 0.6 0.6)
+						(thickness 0.1)
+					)
+				)
+			)
+	(pad "1" smd roundrect
+				(at -2.15 -1)
+				(size 1.45 0.3)
+				(layers "F.Cu" "F.Mask" "F.Paste")
+				(roundrect_rratio 0.25)
+			)
+	(pad "2" smd roundrect
+				(at -2.15 -0.5)
+				(size 1.45 0.3)
+				(layers "F.Cu" "F.Mask" "F.Paste")
+				(roundrect_rratio 0.25)
+			)
+	(pad "3" smd roundrect
+				(at -2.15 0)
+				(size 1.45 0.3)
+				(layers "F.Cu" "F.Mask" "F.Paste")
+				(roundrect_rratio 0.25)
+			)
+	(pad "4" smd roundrect
+				(at -2.15 0.5)
+				(size 1.45 0.3)
+				(layers "F.Cu" "F.Mask" "F.Paste")
+				(roundrect_rratio 0.25)
+			)
+	(pad "5" smd roundrect
+				(at -2.15 1)
+				(size 1.45 0.3)
+				(layers "F.Cu" "F.Mask" "F.Paste")
+				(roundrect_rratio 0.25)
+			)
+	(pad "6" smd roundrect
+				(at 2.15 1)
+				(size 1.45 0.3)
+				(layers "F.Cu" "F.Mask" "F.Paste")
+				(roundrect_rratio 0.25)
+			)
+	(pad "7" smd roundrect
+				(at 2.15 0.5)
+				(size 1.45 0.3)
+				(layers "F.Cu" "F.Mask" "F.Paste")
+				(roundrect_rratio 0.25)
+			)
+	(pad "8" smd roundrect
+				(at 2.15 0)
+				(size 1.45 0.3)
+				(layers "F.Cu" "F.Mask" "F.Paste")
+				(roundrect_rratio 0.25)
+			)
+	(pad "9" smd roundrect
+				(at 2.15 -0.5)
+				(size 1.45 0.3)
+				(layers "F.Cu" "F.Mask" "F.Paste")
+				(roundrect_rratio 0.25)
+			)
+	(pad "10" smd roundrect
+				(at 2.15 -1)
+				(size 1.45 0.3)
+				(layers "F.Cu" "F.Mask" "F.Paste")
+				(roundrect_rratio 0.25)
+			)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/CellKeeper.3dshapes/TSSOP-10_3x3mm_P0.5mm.step"
+				(offset
+					(xyz 0 0 0)
+				)
+				(scale
+					(xyz 1 1 1)
+				)
+				(rotate
+					(xyz 0 0 0)
+				)
+			)
+)

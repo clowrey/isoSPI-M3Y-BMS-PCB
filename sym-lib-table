@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "CellKeeper_Local") (type "KiCad") (uri "${KIPRJMOD}/CellKeeper_Local.kicad_sym") (options "") (descr ""))
+)

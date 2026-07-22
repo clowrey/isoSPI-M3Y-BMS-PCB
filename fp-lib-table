@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "CellKeeper_Local") (type "KiCad") (uri "${KIPRJMOD}/CellKeeper_Local.pretty") (options "") (descr ""))
+)
