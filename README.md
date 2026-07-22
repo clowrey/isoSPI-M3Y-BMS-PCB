@@ -1,5 +1,7 @@
 # CellKeeper BMS — Rev1
 
+![CellKeeper PCB](graphics/CellKeeperPCB.png)
+
 KiCad PCB design for the **CellKeeper Battery Management System**, a replacement BMS controller for battery packs using the isoSPI protocol.
 
 ## Overview

@@ -7,7 +7,7 @@
 	(title_block
 		(title "CellKeeper")
 		(date "2026-06-30")
-		(rev "1.00")
+		(rev "1.1")
 	)
 	(lib_symbols
 		(symbol "CellKeeper_Local:Analog_ADC__ADS1115IDGS"
@@ -22422,6 +22422,17 @@
 		)
 		(uuid "cb2b000b-075c-4767-89f4-c7afeedbe77a")
 	)
+	(text "E-Stop Disable"
+		(exclude_from_sim no)
+		(at 138.938 385.572 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cbb89e17-a0ba-47cf-8082-4b5808598e80")
+	)
 	(text "GPIO3 - GPIO12 on NC header"
 		(exclude_from_sim no)
 		(at 799.846 126.746 0)
@@ -22869,6 +22880,12 @@
 		(uuid "06a6d02c-7f6c-40f5-a402-157055b8be9c")
 	)
 	(junction
+		(at 133.35 381)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06b4cb5f-ebc4-4f3e-8ec3-e2933a3fe234")
+	)
+	(junction
 		(at 91.44 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -23179,12 +23196,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "223fc93e-3cb8-4ce4-af66-c115f3db095e")
-	)
-	(junction
-		(at 100.33 379.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "225a5af3-2648-4217-95db-621b105e5c7d")
 	)
 	(junction
 		(at 427.99 86.36)
@@ -24411,6 +24422,12 @@
 		(uuid "987dda9b-fc20-4d22-a982-197101164d01")
 	)
 	(junction
+		(at 100.33 384.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99246384-ea14-4ada-90a2-7bb2265e1c2e")
+	)
+	(junction
 		(at 327.66 336.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -24711,12 +24728,6 @@
 		(uuid "ba528ad0-2795-4503-bdcd-fa4b63cec868")
 	)
 	(junction
-		(at 156.21 384.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bacc8d44-b4f9-4ffb-98ef-0c5dbd5ce7ff")
-	)
-	(junction
 		(at 167.64 358.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -24793,6 +24804,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4ff2d29-c859-48d5-8818-f9b9055ff04e")
+	)
+	(junction
+		(at 156.21 381)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c571b467-d6bb-48f8-b2e2-9a87d079c37e")
 	)
 	(junction
 		(at 191.77 353.06)
@@ -25107,6 +25124,12 @@
 		(uuid "e380f4f4-7ff7-46c0-82aa-5bd4fcbc4b57")
 	)
 	(junction
+		(at 100.33 379.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e406859f-f098-49be-ab2d-0482a59b397e")
+	)
+	(junction
 		(at 539.75 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -25359,12 +25382,6 @@
 		(uuid "fd0be62d-12c0-4698-9b42-b6a20f6159d2")
 	)
 	(junction
-		(at 100.33 384.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd9eb732-1dc7-402b-ad5a-7b8aae75bd32")
-	)
-	(junction
 		(at 815.34 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -25375,6 +25392,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe8b1cad-3d18-4c8b-83be-52fd1f7c2e5a")
+	)
+	(junction
+		(at 133.35 387.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe8ef2ce-95d5-48b8-915a-d7fa57c7aaf0")
 	)
 	(junction
 		(at 86.36 220.98)
@@ -26914,7 +26937,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 387.35) (xy 161.29 387.35)
+			(xy 111.76 387.35) (xy 133.35 387.35)
 		)
 		(stroke
 			(width 0)
@@ -26951,6 +26974,16 @@
 			(type default)
 		)
 		(uuid "19153e2f-e990-4132-abd3-9743e6a4651c")
+	)
+	(wire
+		(pts
+			(xy 121.92 381) (xy 133.35 381)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1952a88f-179b-4b7c-911b-24070f61e3bc")
 	)
 	(wire
 		(pts
@@ -29324,7 +29357,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 379.73) (xy 100.33 379.73)
+			(xy 106.68 379.73) (xy 100.33 379.73)
 		)
 		(stroke
 			(width 0)
@@ -31324,6 +31357,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 381) (xy 156.21 381)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b199e15-93de-41b5-8a63-0c96d34865f7")
+	)
+	(wire
+		(pts
 			(xy 41.91 491.49) (xy 48.26 491.49)
 		)
 		(stroke
@@ -32744,7 +32787,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 379.73) (xy 121.92 379.73)
+			(xy 111.76 379.73) (xy 119.38 379.73)
 		)
 		(stroke
 			(width 0)
@@ -33974,6 +34017,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 384.81) (xy 121.92 381)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87875a83-30ea-47dd-b051-1fda8fd2ea52")
+	)
+	(wire
+		(pts
 			(xy 322.58 193.04) (xy 325.12 193.04)
 		)
 		(stroke
@@ -34251,6 +34304,16 @@
 			(type default)
 		)
 		(uuid "8da8fed5-8a30-419d-9ad1-1934079f7476")
+	)
+	(wire
+		(pts
+			(xy 156.21 381) (xy 156.21 384.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dc6c41f-835a-4ab3-8a7a-3d44847634c9")
 	)
 	(wire
 		(pts
@@ -34651,6 +34714,16 @@
 			(type default)
 		)
 		(uuid "932a739f-1f51-476d-bfc0-349c956e15b5")
+	)
+	(wire
+		(pts
+			(xy 133.35 387.35) (xy 161.29 387.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "938aadb1-4711-4004-9aad-ecec57338de5")
 	)
 	(wire
 		(pts
@@ -36594,16 +36667,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 384.81) (xy 156.21 384.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aef9df5a-ef0e-46e4-b1b9-6eca99ddd200")
-	)
-	(wire
-		(pts
 			(xy 782.32 173.99) (xy 797.56 173.99)
 		)
 		(stroke
@@ -36971,6 +37034,16 @@
 			(type default)
 		)
 		(uuid "b62b4ce3-07ef-4c32-be79-e0580ae53e84")
+	)
+	(wire
+		(pts
+			(xy 100.33 384.81) (xy 121.92 384.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b660865e-1afb-4551-868a-8abe7e2e3c5f")
 	)
 	(wire
 		(pts
@@ -37931,6 +38004,16 @@
 			(type default)
 		)
 		(uuid "c3d0e88e-fab1-4ee4-8a9e-c989dca2daab")
+	)
+	(wire
+		(pts
+			(xy 133.35 382.27) (xy 133.35 381)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3f49987-b181-40e0-9038-8c0359c49200")
 	)
 	(wire
 		(pts
@@ -41704,16 +41787,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 381) (xy 156.21 384.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdb267dc-c836-4e28-8384-22a153cd399a")
-	)
-	(wire
-		(pts
 			(xy 397.51 671.83) (xy 397.51 675.64)
 		)
 		(stroke
@@ -45418,7 +45491,7 @@
 		(uuid "f0dbfeac-a3d0-45dc-84f8-d85621ba5ca6")
 	)
 	(label "CAN 5V"
-		(at 121.92 379.73 180)
+		(at 119.38 379.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -69905,7 +69978,7 @@
 			)
 		)
 		(property "Value" "GND_Shunt"
-			(at 323.596 312.674 0)
+			(at 331.978 312.166 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -75895,7 +75968,7 @@
 			)
 		)
 		(property "Value" "GND_Shunt"
-			(at 347.726 305.816 0)
+			(at 349.25 305.816 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -77908,7 +77981,7 @@
 	)
 	(symbol
 		(lib_id "CellKeeper_Local:Device__R_Small")
-		(at 110.49 379.73 90)
+		(at 109.22 379.73 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -77918,7 +77991,7 @@
 		(dnp no)
 		(uuid "6b0ee63f-9c4d-4213-9e0d-8295e2c8843a")
 		(property "Reference" "R22"
-			(at 112.014 377.698 90)
+			(at 110.744 377.698 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -77929,7 +78002,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 111.76 381.762 90)
+			(at 110.49 381.762 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -77940,7 +78013,7 @@
 			)
 		)
 		(property "Footprint" "CellKeeper_Local:Resistor_SMD__R_0603_1608Metric"
-			(at 110.49 379.73 0)
+			(at 109.22 379.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -77951,7 +78024,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 379.73 0)
+			(at 109.22 379.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -77962,7 +78035,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 110.49 379.73 0)
+			(at 109.22 379.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -77973,7 +78046,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C21190"
-			(at 110.49 379.73 0)
+			(at 109.22 379.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -82154,6 +82227,99 @@
 			(project "CellKeeper"
 				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
 					(reference "Cell3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CellKeeper_Local:Device__R_Small")
+		(at 62.23 33.02 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7dd15ff3-2c02-497e-92b7-a6d8070ccb48")
+		(property "Reference" "R151"
+			(at 59.69 31.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 60.706 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CellKeeper_Local:Resistor_SMD__R_0603_1608Metric"
+			(at 62.23 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 62.23 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C25803"
+			(at 62.23 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "192af41f-8424-4563-9813-8c5a03e49e23")
+		)
+		(pin "2"
+			(uuid "39b12e10-98bf-4e63-a43b-8c2628473cb7")
+		)
+		(instances
+			(project "CellKeeper"
+				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
+					(reference "R151")
 					(unit 1)
 				)
 			)
@@ -87406,96 +87572,6 @@
 			(project "CellKeeper"
 				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
 					(reference "JP17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CellKeeper_Local:Device__R_Small")
-		(at 62.23 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9258dfdc-e59f-4115-83d7-1e32ef65cbf1")
-		(property "Reference" "R6"
-			(at 65.532 32.258 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "24k"
-			(at 65.786 34.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CellKeeper_Local:Resistor_SMD__R_0603_1608Metric"
-			(at 62.23 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 62.23 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C23352"
-			(at 62.23 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bdd8cbb5-d379-48ae-98c3-387263a5c5f0")
-		)
-		(pin "2"
-			(uuid "e437d9a4-ce35-4f70-bf92-99c684aa4d61")
-		)
-		(instances
-			(project "CellKeeper"
-				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
-					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -94857,6 +94933,96 @@
 			(project "CellKeeper"
 				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
 					(reference "R80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CellKeeper_Local:BMS_Library__Jumper_Resistor")
+		(at 133.35 384.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "acc8f85b-422a-4f22-880b-d52fe3c5d0e8")
+		(property "Reference" "JP37"
+			(at 136.652 384.048 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0r"
+			(at 136.906 386.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CellKeeper_Local:BMS_Library__J_0603_jumper"
+			(at 133.35 384.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 384.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper"
+			(at 133.35 384.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C21189"
+			(at 133.35 384.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e4ea94f8-cf67-45dc-9cb7-1d0dc92d4c33")
+		)
+		(pin "2"
+			(uuid "29c26829-5086-44be-a4dc-252b10347e42")
+		)
+		(instances
+			(project "CellKeeper"
+				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
+					(reference "JP37")
 					(unit 1)
 				)
 			)
@@ -108682,96 +108848,6 @@
 	)
 	(symbol
 		(lib_id "CellKeeper_Local:Device__R_Small")
-		(at 102.87 62.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e5d799ef-c403-431e-a2f2-fba1014474d9")
-		(property "Reference" "R17"
-			(at 106.172 61.468 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "24k"
-			(at 106.426 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CellKeeper_Local:Resistor_SMD__R_0603_1608Metric"
-			(at 102.87 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 102.87 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C23352"
-			(at 102.87 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bdd28ce9-554c-4aca-bdf4-75e267c02b73")
-		)
-		(pin "2"
-			(uuid "89f14b63-3a9b-4a73-83be-713f164ab15b")
-		)
-		(instances
-			(project "CellKeeper"
-				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CellKeeper_Local:Device__R_Small")
 		(at 863.6 179.07 90)
 		(mirror x)
 		(unit 1)
@@ -116261,6 +116337,99 @@
 			(project "CellKeeper"
 				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
 					(reference "U23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CellKeeper_Local:Device__R_Small")
+		(at 102.87 62.23 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fe8d2e27-07cb-4e2d-b32e-30bb59a15e8c")
+		(property "Reference" "R152"
+			(at 101.092 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 101.346 61.976 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CellKeeper_Local:Resistor_SMD__R_0603_1608Metric"
+			(at 102.87 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 102.87 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C25803"
+			(at 102.87 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "40472113-3a3f-4344-ac3a-d8e3383bf121")
+		)
+		(pin "2"
+			(uuid "c8a60978-0aa8-4dd8-af84-b9e9cbde8a3e")
+		)
+		(instances
+			(project "CellKeeper"
+				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
+					(reference "R152")
 					(unit 1)
 				)
 			)
