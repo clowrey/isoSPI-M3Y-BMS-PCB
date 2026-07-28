@@ -61294,6 +61294,109 @@
 		)
 	)
 	(symbol
+		(lib_id "CellKeeper_Local:Device__C_Small")
+		(at 391.16 299.72 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2b4f257a-19f6-415b-81b3-b8db3be0c68b")
+		(property "Reference" "C116"
+			(at 393.192 298.704 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 393.192 300.482 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CellKeeper_Local:Capacitor_SMD__C_0805_2012Metric"
+			(at 391.16 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 391.16 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10uF 50V X5R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 391.16 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C440198"
+			(at 391.16 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V X5R"
+			(at 386.842 302.514 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "9e2c0bf5-1ab8-4617-89a3-b17284993ca5")
+		)
+		(pin "2"
+			(uuid "24a14d72-eccc-4656-9ae4-a5c22f7b75b8")
+		)
+		(instances
+			(project "CellKeeper"
+				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
+					(reference "C116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CellKeeper_Local:power__GND")
 		(at 702.31 78.74 0)
 		(unit 1)
@@ -63605,98 +63708,6 @@
 			(project "CellKeeper"
 				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
 					(reference "C97")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CellKeeper_Local:Device__C_Small")
-		(at 391.16 299.72 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "349d5d10-b046-4a72-af53-c521c111519b")
-		(property "Reference" "C57"
-			(at 385.318 299.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1uF"
-			(at 385.572 301.752 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "CellKeeper_Local:Capacitor_SMD__C_0603_1608Metric"
-			(at 391.16 299.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 391.16 299.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CL10A105KB8NNNC - 1uF 50V X5R ±10%"
-			(at 391.16 299.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C15849"
-			(at 391.16 299.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a713ea0f-09a5-4063-993a-c8bcfa18565c")
-		)
-		(pin "2"
-			(uuid "fc4dba35-550a-4fcb-ad13-dcb25243ae37")
-		)
-		(instances
-			(project "CellKeeper"
-				(path "/5d962221-5e0a-481f-afc5-67c7ec101fc1"
-					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -90857,7 +90868,7 @@
 			)
 		)
 		(property "Voltage" "50V X5R"
-			(at 333.248 305.054 0)
+			(at 328.422 305.562 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
